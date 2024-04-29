@@ -1,0 +1,1867 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 'Open sans', sans-serif;
+}
+body{
+    background-color:  rgb(253, 255, 255);
+}
+
+/*
+
+                                      ---------------- 
+                                   --------------------             
+                               ------------------------
+                           ----------------------------
+                       --------------------------------
+                 ----------             ---------------
+          ------------                  ---------------
+                                        ---------------
+                                        ---------------
+                                        ---------------
+                                        ---------------
+                                        ---------------
+                                        ---------------
+                                        ---------------
+                                        ---------------
+                                        ---------------
+                                        ---------------
+                                        ---------------
+                                        ---------------
+                                        ---------------
+                                        ---------------
+                                        ---------------
+                                        ---------------
+                                        ---------------
+                                        ---------------
+
+
+*/
+
+
+/*Styles of main header*/ 
+.black{
+      background-color: rgba(10, 141, 39, 0.8);
+      height: 110px;
+      top: 0;
+      left: 0;
+      right: 0;
+      position: fixed;
+      
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color:  rgb(31, 30, 30);
+    padding-top: 5px;
+    height: 80px;
+    
+}
+.navbar{
+    display: flex;
+    align-items: center;
+}
+
+
+/*Container for styles of  the "ICON and LOGO" on the top left corner*/
+.highlight{
+    color:  green;
+    font-weight: bold;
+}
+.highlight-p{
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+    margin-left: 5px;
+    font-size: 40px;
+    color: white;
+    font-style: italic;
+}
+.navbar .icon-container {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.navbar .icon-container img{
+     width: 55px;
+     height: 55px;
+}
+
+
+/*Class-links  for  "ABOUT US"  outside navbar-menu*/
+.links{
+    margin-left: 42%;
+    margin-top: 15px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.links:hover{
+   background-color: green;
+   border-radius: 5px;
+}
+.navbar li{
+    list-style: none;
+}
+.About{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+
+/*Container for "OUR SERVICES" out-side navbar-menu*/
+.our-service{
+    margin-left: 28px;
+    margin-top: 14px;
+    padding-left: 3px;
+}
+.our-service{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+.our-service:hover{
+    background-color: green;
+}
+
+.services{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+.our-service .ico{
+    background-image: url(arrow.ico);
+    width: 18px;
+    height: 18px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    margin-left: -7px;
+}
+.ico{
+    border: none;
+    background: transparent;
+}
+ .our-service   li ul{
+    top: 80px;
+    position: absolute;
+    background-color: rgb(206, 190, 212);
+    left: 67%;
+    width: 120px;
+    height: 100px;
+    border-radius: 20%;
+    padding-top: 10px;
+    padding-left: 35px;
+    transition: visibility 0.5s;
+}
+
+.our-service li ul li a{
+    color: black;
+    text-decoration: none;
+    line-height: 25px;
+}
+.our-service li ul li a:hover{
+    color: grey;
+}
+.our-service  li ul {
+    visibility: hidden;
+}
+.our-service li:hover > ul{
+    visibility: visible;
+}
+
+
+/*Wrap "BUTTONS FOR CHANGING THE LANGUAGE ON THE MAIN PAGE" */
+.wrap{
+    display: flex;
+    margin-left: 65px;
+    gap: 10px;
+    margin-top: 18px;
+}
+.lang-button{
+    font-size: 16px;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    color: rgb(175, 175, 133);
+    cursor: pointer;
+    font-style: oblique;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+ }
+ .lang-button:hover{
+    color: green;
+ }
+
+
+ /*THE LAST BUTTON ON THE RIGHT FOR GETTING STARTED*/
+ .start_button{
+    background-color: rgb(31, 30, 30);
+    border-radius: 15px;
+    outline: none;
+    padding: 0.5rem 1rem;
+    margin-top: 13px;
+    cursor: pointer;
+    margin-left: 4rem;
+    color: white;
+    font-size: 18px;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.1);
+    border: 1px solid green;
+ }
+ .start_button:hover{
+    scale: 1.02;
+ }
+
+ .dropdown-menu{
+    position: fixed;
+    top: -100%;
+    
+    width: 100%;
+    background-color: rgb(31, 30, 30);
+    height: 100vh;
+    overflow: hidden;
+    transition: all 0.5s ease; 
+    visibility: hidden;  
+ }
+
+
+
+
+ /*
+
+                                      ---------------- 
+                                   --------------------             
+                               ------------------------
+                           ----------------------------
+                       --------------------------------
+                 ----------             ---------------
+          ------------                  ---------------
+                                        ---------------
+                                        ---------------
+                                        ---------------
+                                        ---------------
+                                        ---------------
+                                        ---------------
+                                        ---------------
+                                        ---------------
+                                        ---------------
+                                        ---------------
+                                        ---------------
+                                        ---------------
+                                        ---------------
+                                        ---------------
+                                        ---------------
+                                        ---------------
+                                        ---------------
+                                        ---------------
+
+
+*/
+/*The code for changing "SPAN AND P" on the body part*/
+
+
+/*THE POSITION OF ITEMS INSIDE THE /DIV/ "HELLO" */
+.HELLO{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+  }
+
+
+  /*STYLE OF SPAN INSIDE THE "HELLO" /DIV/ */
+ .p1{
+    font-size: 55px;
+    font-weight: bold;
+    
+}
+.p5{
+  font-size: 55px;
+  font-weight: bold;
+  
+}
+.p6{
+  font-size: 55px;
+  font-weight: bold;
+  color: green;
+  margin-left: 25px;
+}
+.p7{
+  font-size: 55px;
+  font-weight: bold;
+  color: green;
+}
+.p8{
+  font-size: 55px;
+  font-weight: bold;
+  color: green;
+  margin-left: 25px;
+}
+.p9{
+  font-size: 55px;
+  font-weight: bold;
+  color: green;
+}
+
+
+/*STYLE OF "P" INSIDE THE /DIV/ "HELLO" */
+.p2{
+    font-size: 55px;
+    font-weight: bold;
+    color: green;
+  }
+  
+  .p3{
+    font-size: 55px;
+    font-weight: bold;
+  }
+  .p4{
+    font-size: 55px;
+    font-weight: bold;
+  }
+  
+  
+  /*The code for changing "SPAN AND P" on the body part*/
+
+
+/*The second beginnig of the body part*/
+.tailored{
+    margin-top: 50px;
+    text-align: center;
+    width: 55%;
+    margin-left: 23%;
+    
+}
+.tailored .tap{
+    font-size: 40px;
+}
+
+
+/*Button get started*/
+.getstarted{
+    border-radius: 10px;
+    margin-top: 4rem;
+    margin-left: 45%;
+    outline: none;
+    border: none;
+    padding: 0.6rem 2rem;
+    cursor: pointer;
+    font-size: 14px;
+    color: white;
+    background-color: rgb(31, 30, 30);
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.6);
+}
+.getstarted:hover{
+    border-bottom: 5px solid green;
+    border-top: 5px solid green;
+    transform: scale(1.03);
+}
+
+
+/* CSS STYLE OF "HUGE-DIV"*/
+
+.huge-div{
+    margin-top: 120px;
+    background: linear-gradient( rgb(31, 30, 30), rgb(58, 57, 57));
+    height: auto;
+    width: 65%;
+    margin-left: 18%;
+    border-left: 4px solid green;
+    border-right: 4px solid green;
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.7);
+}
+.div_title{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+.div_description{
+    color: white;
+    font-size: 26px;
+    margin-top: 15px;
+    line-height: 1.4;
+}
+/*CSS STYLES FOR WHY ELEMENT IN THE BODY PART*/
+.why{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+/*CSS STYLE FOR LETTERS IN WHY ELEMENT*/
+.why p,
+span{
+  font-size: 55px;
+  font-weight: bold;
+}
+.why span{
+    color: green;
+}
+.w2{
+    margin-left: 25px;
+}
+
+
+
+                                                        /*STYLE FOR "TEXT_PIC DIV"*/
+
+.text_pic{
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    width: auto;
+}
+.div_monitor{
+    width: auto;
+}
+.monitor{
+    font-size: 40px;
+    font-weight: bold;
+}
+.sub_monitor{
+    font-size: 25px;
+    width: 75%;
+    margin-top: 25px;
+    font-weight: bold;
+    color: rgb(63, 60, 60);
+}
+.text_pic img{
+    margin-right: 50px;
+    width: 45%;
+
+    
+}
+                                                        /*STYLE FOR "TEXT_PIC DIV"*/
+
+
+
+                                                        /*STYLE FOR "TEXT REDUCED DIV"*/ 
+ .text_reduced{
+    display: flex;
+    align-items: center;
+    width: auto;
+ }     
+ .div_reduced{
+    width: auto;
+    padding-left: 18%;
+ } 
+ .reduced{
+    font-size: 40px;
+    font-weight: bold;
+    width: 100%;
+    
+ }
+ .sub_reduced{
+    font-size: 25px;
+    width: 85%;
+    margin-top: 25px;
+    font-weight: bold;
+    color: rgb(63, 60, 60);
+ }
+ .text_reduced img{
+    width: 35%;
+    margin-left: 40px;
+ }                                          
+
+ /*STYLES FOR "DIV-UNIQUE_PIC"--------------------*/
+
+ .unique_pic{
+    
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    width: auto;
+ }
+ .div_unique{
+    width: 55%;
+    padding-top: 1rem;
+ }
+ .unique{
+    font-size: 40px;
+    font-weight: bold;
+ }
+ .sub_unique{
+    font-size: 25px;
+    width: 70%;
+    margin-top: 25px;
+    font-weight: bold;
+    color: rgb(63, 60, 60);
+ }
+ .unique_pic img{
+    height: 23rem;
+    width: 30%;
+    margin-left: 6rem;
+ }
+
+/*___________________________------------------------________*/
+
+
+/*PLACE FOR DIV-TARIFFS STYLES*/
+.div_tariff{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+.tariff{
+    font-size: 55px;
+    font-weight: bold; 
+    color: green;
+}
+.div_tariff span{
+    color: rgb(66, 62, 62);
+    font-size: 55px;
+    font-weight: bold;
+}
+.tar_hr{
+    
+    height: 15px;
+    border-radius: 15px;
+    background: linear-gradient(rgb(48, 121, 58), rgb(230, 178, 83));
+    width: 16rem;
+    margin-left: 41%;
+}
+
+
+/*              "MAIN TARIFF DIV" PLACE FOR THE WHOLE TARIFF  */
+.main_tariff{
+    display: flex;
+    
+    gap: 4rem;
+    margin-top: 5rem;
+}
+.pro{
+    display: flex;
+    align-items: center;
+    height: auto;
+    width: auto;
+    margin-top: 20px;
+    padding-right: 20px ;
+    padding-left: 15px;
+}
+.pro img{
+    width: 25px;
+    height: 25px;
+}
+.pro p{
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 19px;
+    color: white;
+}
+/*              "SUB_TARIFF DIV" PLACE FOR CHANGING TARIFFS   1111111111111111__________*/
+.sub_tariff{
+    margin-top: 4rem;
+    border: 1px solid rgb(231, 231, 200);
+    width: 340px;
+    height: 573px;
+    margin-left: 7rem;
+    border-radius: 20px;
+    background-color: rgb(59, 59, 55);
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.9);
+}
+.basic{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+}
+.button_tariff{
+    margin-top: 225px;
+    margin-bottom: 35px;
+    margin-left: 35%;
+    border: 1px solid white;
+    border-radius: 10px;
+    outline: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(31, 30, 30);
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.6);
+}
+.button_tariff:hover{
+    scale: 1.1;
+}
+
+ 
+/*              "SUB_TARIFF DIV" PLACE FOR CHANGING TARIFFS   22222222222222__________*/
+.sub_tariff2{
+    margin-top: 4rem;
+    border: 3px solid gold;
+    width: 340px;
+    border-radius: 20px;
+    background-color: rgb(59, 59, 55);
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.9);
+}
+.premium{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 45px;
+    font-weight: bold;
+    color: gold;
+}
+.button_tariff3{
+    margin-top: 50px;
+    margin-bottom: 35px;
+    margin-left: 35%;
+    border: 1px solid gold;
+    border-radius: 10px;
+    outline: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(31, 30, 30);
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.6);
+}
+.button_tariff3:hover{
+    scale: 1.1;
+}
+
+/*              "SUB_TARIFF DIV" PLACE FOR CHANGING TARIFFS    3333333333333333__________*/
+.sub_tariff3{
+    margin-top: 1rem;
+    border-radius: 20px;
+    width: 340px;
+    height: 20%;
+    background-color: rgb(59, 59, 55);
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.9);
+    border: 3px solid green;
+}
+.standart{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 45px;
+    font-weight: bold;
+    color: rgb(53, 161, 53);
+}
+.button_tariff2{
+    margin-top: 50px;
+    margin-bottom: 35px;
+    margin-left: 35%;
+    border: 1px solid green;
+    border-radius: 10px;
+    outline: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(31, 30, 30);
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.6);
+}
+.button_tariff2:hover{
+    scale: 1.1;
+}
+
+/*SECOND TARIFF ADDITIONAL SERVICES */
+.second_tariff{
+    margin-top: -8rem;
+    margin-left: 32.5rem;
+    background-color: rgb(59, 59, 55);
+    width: 340px;
+    border-radius: 20px;
+    border: 3px solid rgb(164, 197, 17);
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.9);
+}
+.addi{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 38px;
+    font-weight: bold;
+    color: rgb(211, 231, 123);
+}
+.button_tariff4{
+    margin-top: 50px;
+    margin-bottom: 35px;
+    margin-left: 35%;
+    border: 1px solid rgb(211, 231, 123);
+    border-radius: 10px;
+    outline: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(31, 30, 30);
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.6);
+}
+.button_tariff4:hover{
+    scale: 1.1;
+}
+
+/*--------------------------------------------------*/
+
+ /* ----------"THE END OF THE HEADER_____________NUMBER: 1"---------------------*/
+
+ 
+
+
+ @media(max-width: 992px){
+    .navbar .links,
+    .navbar .our-service,
+    .navbar .start_button{
+        display: none;
+    }
+
+   /*Container for styles of  the "ICON and LOGO" on the top left corner*/
+
+
+    .dropdown-menu .highlight{
+        color:  green;
+        font-weight: bold;
+    }
+    .dropdown-menu .highlight-p{
+        text-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+        margin-left: 5px;
+        font-size: 40px;
+        color: white;
+        font-style: italic;
+    }
+    .dropdown-menu .icon-container {
+        display: flex;
+        align-items: center;
+        margin-left: 15px;
+        margin-top: 15px;
+    }
+    .dropdown-menu .icon-container img{
+         width: 55px;
+         height: 55px;
+    }
+    
+
+
+    .dropdown-menu{
+        position: fixed;
+        top: -100%;
+        width: 100%;
+        background-color: rgb(31, 30, 30);
+        height: 100vh;
+        transition: all 0.5s ease; 
+        visibility: visible;
+        z-index: 99; 
+     }
+
+     .dropdown-menu.active{
+        height: 100vh;
+        top: 0; 
+     }
+
+     .toggle_icon{
+        position: fixed;
+        top: 25px;
+        right: 30px;
+        width: 25px;
+        height: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        cursor: pointer;
+        z-index: 100;
+    }
+    .toggle_icon span{
+        display: block;
+        height: 3px;
+        width: 100%;
+        background: white;
+        transition: transform 0.3s ease, opacity 0.3s ease;
+      }
+
+      .toggle_icon.active span:nth-child(1){
+        transform: rotate(45deg)
+        translate(5px, 5px);
+      }
+      .toggle_icon.active span:nth-child(2){
+        opacity: 0;
+      }
+      .toggle_icon.active span:nth-child(3){
+        transform: rotate(-45deg)
+        translate(2px, -2px) 
+      }
+    /*Styles of main header*/ 
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color:  rgb(31, 30, 30);
+    padding-top: 15px;
+    height: 70px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+}
+
+
+    /*Container for styles of  the "ICON and LOGO" on the top left corner*/
+    .highlight{
+        color: green;
+        font-weight: bold;
+    }
+    .highlight-p{
+        
+        font-size: 40px;
+        color: white;
+        font-style: italic;
+    }
+    .navbar .icon-container {
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+        margin-top: -8px;
+    }
+ 
+
+  
+    
+ 
+ 
+ 
+
+ /*Wrap "BUTTONS FOR CHANGING THE LANGUAGE ON THE MAIN PAGE" */
+  .navbar .wrap{
+    display: none;
+
+  }
+  
+  .dropdown-menu hr{
+    margin-top: 5px;
+    background-color: green;
+    width: 105px;
+    height: 5px;
+    border-radius: 15px;
+    border: none;
+    margin-left: 35px;
+}
+.dropdown-menu .wrap{
+    margin-left: 31px;
+    gap: 10px;
+}
+.dropdown-menu .wrap .lang-button{
+    display: flex;
+    margin-top: 75px;
+    display: block;
+}
+.dropdown-menu .lang-button{
+    font-size: 15px;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    color: rgb(175, 175, 133);
+    cursor: pointer;
+    font-style: oblique;
+    width: 50px
+ }
+ .dropdown-menu .lang-button:hover{
+    color: green;
+ }
+ .dropdown-box{
+    margin-top: 4rem;
+    margin-left: 25px;
+ }
+ .dropdown-box2{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    width: 140px;
+ }
+ .dropdown-menu li{
+      list-style: none;
+ }
+ .About2{
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+}
+.About2:hover{
+    color: green;
+}
+.services2{
+    font-size: 23px;
+    color: white;
+    margin-top: 1px;
+}
+.services2:hover{
+    cursor: pointer;
+}
+.dropdown-box2 .ico2{
+    background-image: url(arrow.ico);
+    width: 18px;
+    height: 18px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.ico2{
+    background: transparent;
+    border: none;
+}
+
+
+/*------------------------This "CSS CODE FOR DROPDOWN-ARROW INSIDE DROPDOWN-MENU"---------------------------*/
+
+
+.dropdown-arrow {
+    
+    position: absolute;
+    overflow: hidden;
+    height: 0;
+    visibility: hidden;
+    margin-top: -15px;
+    margin-left: 4rem;
+    background-color: grey;
+    border-radius: 20%;
+    border: 2px solid green;
+}
+.dropdown-arrow.open{
+    height: 200px;
+    width: 200px;
+    top: 375px;
+    padding-left: 60px;
+    transition: height .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    visibility: visible;
+   
+}
+.dropdown-arrow a{
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+.dropdown-arrow a:hover{
+    color: rgb(75, 74, 74);
+}
+.dropdown-arrow li{
+    margin-top: 1.5rem
+}
+.dropdown-arrow .wrap{
+    display: none;
+}
+
+
+/*--------------------------------------------------------------*/
+
+
+/*The begining of the body part*/
+/*The code for changing "SPAN AND P" on the body part*/
+
+
+/*THE POSITION OF ITEMS INSIDE THE /DIV/ "HELLO" */
+.HELLO{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+  }
+
+
+  /*STYLE OF SPAN INSIDE THE "HELLO" /DIV/ */
+.HELLO P{
+    font-size: 35px;
+}
+.HELLO span{
+    font-size: 35px;
+}
+.p6{
+    margin-left: 13px;
+}
+.p8{
+    margin-left: 13px;
+}
+  
+  /*The second beginnig of the body part*/
+  .tailored{
+      margin-top: 50px;
+      text-align: center;
+      width: 68%;
+      margin-left: 17%;
+      
+  }
+  .tailored .tap{
+      font-size: 26px;
+      font-weight: 600;
+  }
+  
+  
+  /*Button get started*/
+  .getstarted{
+      border-radius: 10px;
+      margin-top: 4rem;
+      margin-left: 40%;
+      outline: none;
+      border: none;
+      padding: 0.6rem 2rem;
+      cursor: pointer;
+      font-size: 14px;
+      color: white;
+      background-color: rgb(31, 30, 30);
+      font-weight: bold;
+      box-shadow: 0px 4px 6px rgba(0,0,0,0.6);
+  }
+  .getstarted:hover{
+      border-bottom: 5px solid green;
+      border-top: 5px solid green;
+      transform: scale(1.03);
+  }
+  
+  
+/* CSS STYLE OF "HUGE-DIV"*/
+
+.huge-div{
+    margin-top: 120px;
+    background: linear-gradient( rgb(31, 30, 30), rgb(58, 57, 57));
+    height: auto;
+    width: 83%;
+    margin-left: 10%;
+    border-left: 4px solid green;
+    border-right: 4px solid green;
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.7);
+}
+.div_title{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+.div_description{
+    color: white;
+    font-size: 21px;
+    margin-top: 15px;
+    line-height: 1.4;
+}
+
+
+/*--------------------------------------------------*/
+
+
+/*CSS STYLES FOR WHY ELEMENT IN THE BODY PART*/
+.why{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+/*CSS STYLE FOR LETTERS IN WHY ELEMENT*/
+.why p,
+span{
+  font-size: 45px;
+  font-weight: bold;
+}
+.why span{
+    color: green;
+}
+.w2{
+    margin-left: 25px;
+}
+
+
+
+.text_pic{
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    margin-left: 0;
+    height: auto;
+    width: auto;
+    
+}
+.div_monitor{
+    width: auto;
+    
+}
+.monitor{
+    font-size: 25px;
+    font-weight: bold;
+}
+.sub_monitor{
+    font-size: 20px;
+    width: 75%;
+    margin-top: 15px;
+    font-weight: bold;
+    color: rgb(63, 60, 60);
+}
+.text_pic img{
+    margin-right: 0;
+    padding-right: 10px;
+    width: 45%;
+   
+}
+
+.text_reduced{
+    display: flex;
+    align-items: center;
+    width: auto;
+    margin-top: 3rem;
+ }     
+ .div_reduced{
+    width: auto;
+    padding-left: 35px;
+ } 
+ .reduced{
+    font-size: 25px;
+    font-weight: bold;
+ }
+ .sub_reduced{
+    font-size: 20px;
+    width: 90%;
+    margin-top: 25px;
+    font-weight: bold;
+    color: rgb(63, 60, 60);
+ }
+ .text_reduced img{
+    width: 40%;
+    margin-left: 10px;
+ }  
+ 
+ 
+ .unique_pic{
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+    width: auto;
+    margin-top: 1rem;
+ }
+ .div_unique{
+    width: 55%;
+    padding-top: 1rem;
+    padding-left: 30px;
+ }
+ .unique{
+    font-size: 25px;
+    font-weight: bold;
+    
+ }
+ .sub_unique{
+    font-size: 20px;
+    width: 85%;
+    margin-top: 25px;
+    font-weight: bold;
+    color: rgb(63, 60, 60);
+ }
+ .unique_pic img{
+    margin-left: 0.5rem;
+    width: 38%;
+    height: 17rem;
+ } 
+ /*              "MAIN TARIFF DIV" PLACE FOR THE WHOLE TARIFF  */
+
+/*PLACE FOR DIV-TARIFFS STYLES*/
+.div_tariff{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+.tariff{
+    font-size: 45px;
+    font-weight: bold; 
+    color: green;
+}
+.div_tariff span{
+    color: rgb(66, 62, 62);
+    font-size: 45px;
+    font-weight: bold;
+}
+.tar_hr{
+    
+    height: 15px;
+    border-radius: 15px;
+    background: linear-gradient(rgb(48, 121, 58), rgb(230, 178, 83));
+    width: 13rem;
+    margin-left: 35%;
+}
+
+.main_tariff{
+    display: block;
+    margin-top: 5rem;
+    
+}
+.pro{
+    display: flex;
+    align-items: center;
+    height: auto;
+    width: auto;
+    margin-top: 20px;
+    padding-right: 20px ;
+    padding-left: 15px;
+}
+.pro img{
+    width: 25px;
+    height: 25px;
+}
+.pro p{
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 19px;
+    color: white;
+}
+/*              "SUB_TARIFF DIV" PLACE FOR CHANGING TARIFFS   1111111111111111__________*/
+.sub_tariff{
+    margin-top: 4rem;
+    margin-left: 10rem;
+    border: 1px solid rgb(231, 231, 200);
+    width: 340px;
+    height: auto;
+    border-radius: 20px;
+    background-color: rgb(59, 59, 55);
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.9);
+}
+.basic{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+}
+.button_tariff{
+    margin-top: 225px;
+    margin-bottom: 35px;
+    margin-left: 35%;
+    border: 1px solid white;
+    border-radius: 10px;
+    outline: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(31, 30, 30);
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.6);
+}
+.button_tariff:hover{
+    scale: 1.1;
+}
+
+ 
+/*              "SUB_TARIFF DIV" PLACE FOR CHANGING TARIFFS   22222222222222__________*/
+.sub_tariff2{
+    margin-top: 4rem;
+    margin-left: 10rem;
+    border: 3px solid gold;
+    width: 340px;
+    border-radius: 20px;
+    background-color: rgb(59, 59, 55);
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.9);
+}
+.premium{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 45px;
+    font-weight: bold;
+    color: gold;
+}
+.button_tariff3{
+    margin-top: 50px;
+    margin-bottom: 35px;
+    border: 1px solid gold;
+    border-radius: 10px;
+    outline: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(31, 30, 30);
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.6);
+}
+.button_tariff3:hover{
+    scale: 1.1;
+}
+
+/*              "SUB_TARIFF DIV" PLACE FOR CHANGING TARIFFS    3333333333333333__________*/
+.sub_tariff3{
+    margin-top: 4rem;
+    margin-left: 10rem;
+    border-radius: 20px;
+    width: 340px;
+    height: 20%;
+    background-color: rgb(59, 59, 55);
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.9);
+    border: 3px solid green;
+}
+.standart{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 45px;
+    font-weight: bold;
+    color: rgb(53, 161, 53);
+}
+.button_tariff2{
+    margin-top: 50px;
+    margin-bottom: 35px;
+    margin-left: 35%;
+    border: 1px solid green;
+    border-radius: 10px;
+    outline: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(31, 30, 30);
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.6);
+}
+.button_tariff2:hover{
+    scale: 1.1;
+}
+
+/*SECOND TARIFF ADDITIONAL SERVICES */
+.second_tariff{
+    margin-top: 4rem;
+    margin-left: 10rem;
+    background-color: rgb(59, 59, 55);
+    width: 340px;
+    border-radius: 20px;
+    border: 3px solid rgb(164, 197, 17);
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.9);
+}
+.addi{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 38px;
+    font-weight: bold;
+    color: rgb(211, 231, 123);
+}
+.button_tariff4{
+    margin-top: 50px;
+    margin-bottom: 35px;
+    margin-left: 35%;
+    border: 1px solid rgb(211, 231, 123);
+    border-radius: 10px;
+    outline: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(31, 30, 30);
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.6);
+}
+.button_tariff4:hover{
+    scale: 1.1;
+}
+
+/*--------------------------------------------------*/
+
+ }
+ @media (max-width: 385px){
+
+
+       /*Styles of main header*/ 
+       .dropdown-menu{
+        position: fixed;
+        top: -100%;
+        width: 90%;
+        background-color: rgb(31, 30, 30);
+        height: 100vh;
+        transition: all 0.5s ease; 
+        visibility: visible;
+        z-index: 99; 
+     }
+
+     .dropdown-menu.active{
+        height: 100vh;
+        top: 0; 
+     }
+.black{
+    height: 80px;
+    width: 90%;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color:  rgb(31, 30, 30);
+    padding-top: 12px;
+    height: 50px;
+    width: 90%
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    width: 90%;
+}
+
+
+    /*Container for styles of  the "ICON and LOGO" on the top left corner*/
+    .highlight{
+        color: green;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .highlight-p{        
+        font-size: 30px;
+        color: white;
+        font-style: italic;
+    }
+    .navbar .icon-container {
+        display: flex;
+        align-items: center;
+        margin-left: 5px;
+        margin-top: -8px;
+    }
+    .navbar .icon-container img{
+        width: 35px;
+        height: 35px;
+   }
+   .toggle_icon{
+    position: fixed;
+    top: 18px;
+    left: 280px;
+    width: 20px;
+    height: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    cursor: pointer;
+    z-index: 100;
+}
+.toggle_icon span{
+    display: block;
+    height: 3px;
+    width: 100%;
+    background: white;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  .toggle_icon.active span:nth-child(1){
+    transform: rotate(45deg)
+    translate(5px, 5px);
+  }
+  .toggle_icon.active span:nth-child(2){
+    opacity: 0;
+  }
+  .toggle_icon.active span:nth-child(3){
+    transform: rotate(-45deg)
+    translate(1px, -1px) 
+  }
+  /*THE POSITION OF ITEMS INSIDE THE /DIV/ "HELLO" */
+.HELLO{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 110px;  
+    width: 85%;
+  }
+
+
+  /*STYLE OF SPAN INSIDE THE "HELLO" /DIV/ */
+.HELLO P{
+    font-size: 17px;
+}
+.HELLO span{
+    font-size: 17px;
+}
+.p6{
+    margin-left: 8px;
+}
+.p8{
+    margin-left: 8px;
+}
+  
+  /*The second beginnig of the body part*/
+  .tailored{
+      margin-top: 30px;
+      text-align: center;
+      width: 63%;
+      
+      margin-left: 40px;
+  }
+  .tailored .tap{
+      font-size: 16px;
+      font-weight: 600;
+  }
+  
+  
+  /*Button get started*/
+  .getstarted{
+      border-radius: 10px;
+      margin-top: 45px;
+      margin-left: 30%;
+      outline: none;
+      border: none;
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+      font-size: 10px;
+      color: white;
+      background-color: rgb(31, 30, 30);
+      font-weight: bold;
+      box-shadow: 0px 4px 6px rgba(0,0,0,0.6);
+  }
+  .getstarted:hover{
+      border-bottom: 5px solid green;
+      border-top: 5px solid green;
+      transform: scale(1.03);
+  }
+  
+  
+/* CSS STYLE OF "HUGE-DIV"*/
+
+.huge-div{
+    margin-top: 100px;
+    background: linear-gradient( rgb(31, 30, 30), rgb(58, 57, 57));
+    height: auto;
+    width: 80%;
+    margin-left: 0;
+    border-left: 4px solid green;
+    border-right: 4px solid green;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.7);
+}
+.div_title{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.div_description{
+    color: white;
+    font-size: 11px;
+    margin-top: 8px;
+    line-height: 1.4;
+}
+/*CSS STYLES FOR WHY ELEMENT IN THE BODY PART*/
+.why{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    margin-left: 0;
+    width: 80%;
+}
+/*CSS STYLE FOR LETTERS IN WHY ELEMENT*/
+.why p,
+span{
+  font-size: 25px;
+  font-weight: bold;
+}
+.why span{
+    color: green;
+}
+.w2{
+    margin-left: 10px;
+}
+.text_pic{
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    margin-left: 0;
+    height: auto;
+    width: 80%;
+    border: 1px solid black;
+    flex-direction: column;
+}
+.div_monitor{
+    width: auto;   
+}
+.div_monitor:first-child{
+    order: 2;
+}
+.monitor{
+    font-size: 19px;
+    font-weight: bold;
+    width: 80%;
+}
+.sub_monitor{
+    font-size: 15px;
+    width: 70%;
+    margin-top: 5px;
+    font-weight: bold;
+    color: rgb(63, 60, 60);
+}
+.text_pic img{
+    margin-right: 80px;
+    width: 65%;
+}
+
+.text_reduced{
+    display: block;
+    align-items: center;
+    width: auto;
+    margin-top: 2rem;
+    width: 80%;
+    border: 1px solid black;
+ }     
+ .div_reduced{
+    width: auto;
+    padding-left: 35px;
+    margin-top: -10px;
+ } 
+ .reduced{
+    font-size: 19px;
+    font-weight: bold;
+    width: 80%;
+ }
+ .sub_reduced{
+    font-size: 15px;
+    width: 70%;
+    margin-top: 5px;
+    font-weight: bold;
+    color: rgb(63, 60, 60);
+ }
+ .text_reduced img{
+    width: 50%;
+    margin-left: 3rem;
+ }  
+
+ .unique_pic{
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+    width: auto;
+    margin-top: 3rem;
+    flex-direction: column;
+    width: 80%;
+    border: 1px solid black;
+ }
+ .div_unique{
+    width: auto;
+    padding-top: 1rem;
+    
+ }
+ .div_unique:first-child{
+    order: 2;
+ }
+ .unique{
+    font-size: 19px;
+    font-weight: bold;
+    
+ }
+ .sub_unique{
+    font-size: 15px;
+    width: 70%;
+    margin-top: 5px;
+    font-weight: bold;
+    color: rgb(63, 60, 60);
+ }
+ .unique_pic img{
+    margin-right: 80px;
+    width: 50%;
+    height: 14rem;
+ }
+/*--------------------------------------------------*/
+
+/*              "MAIN TARIFF DIV" PLACE FOR THE WHOLE TARIFF  */
+
+/*PLACE FOR DIV-TARIFFS STYLES*/
+.div_tariff{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    width: 80%;
+    border: 1px solid black;
+}
+.tariff{
+    font-size: 30px;
+    font-weight: bold; 
+    color: green;
+}
+.div_tariff span{
+    color: rgb(66, 62, 62);
+    font-size: 30px;
+    font-weight: bold;
+}
+.tar_hr{
+    
+    height: 10px;
+    border-radius: 15px;
+    background: linear-gradient(rgb(48, 121, 58), rgb(230, 178, 83));
+    width: 10rem;
+    margin-left: 30%;
+}
+
+.main_tariff{
+    display: block;
+    margin-top: 4rem;
+    width: 80%;
+    border: 1px solid black;
+}
+.pro{
+    display: flex;
+    align-items: center;
+    height: auto;
+    width: auto;
+    margin-top: 20px;
+    padding-right: 20px ;
+    padding-left: 15px;
+}
+.pro img{
+    width: 20px;
+    height: 20px;
+}
+.pro p{
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+}
+/*              "SUB_TARIFF DIV" PLACE FOR CHANGING TARIFFS   1111111111111111__________*/
+.sub_tariff{
+    margin-top: 4rem;
+    margin-left: 1.5rem;
+    border: 1px solid rgb(231, 231, 200);
+    width: 270px;
+    height: auto;
+    border-radius: 20px;
+    background-color: rgb(59, 59, 55);
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.9);
+}
+.basic{
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+.button_tariff{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    margin-left: 30%;
+    border: 1px solid white;
+    border-radius: 10px;
+    outline: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(31, 30, 30);
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.6);
+}
+.button_tariff:hover{
+    scale: 1.1;
+}
+
+ 
+/*              "SUB_TARIFF DIV" PLACE FOR CHANGING TARIFFS   22222222222222__________*/
+.sub_tariff2{
+    margin-top: 4rem;
+    margin-left: 1.5rem;
+    border: 3px solid gold;
+    width: 270px;
+    height: auto;
+    border-radius: 20px;
+    background-color: rgb(59, 59, 55);
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.9);
+}
+.premium{
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 30px;
+    font-weight: bold;
+    color: gold;
+}
+.button_tariff3{
+    margin-top: 40px;
+    margin-bottom: 25px;
+    margin-left: 31%;
+    border: 1px solid gold;
+    border-radius: 10px;
+    outline: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(31, 30, 30);
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.6);
+}
+.button_tariff3:hover{
+    scale: 1.1;
+}
+
+
+
+
+
+/*              "SUB_TARIFF DIV" PLACE FOR CHANGING TARIFFS    3333333333333333__________*/
+.sub_tariff3{
+    margin-top: 4rem;
+    margin-left: 1.5rem;
+    border-radius: 20px;
+    width: 270px;
+    height: auto;
+    background-color: rgb(59, 59, 55);
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.9);
+    border: 3px solid green;
+}
+.standart{
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(53, 161, 53);
+}
+.button_tariff2{
+    margin-top: 30px;
+    margin-bottom: 25px;
+    margin-left: 31%;
+    border: 1px solid green;
+    border-radius: 10px;
+    outline: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(31, 30, 30);
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.6);
+}
+.button_tariff2:hover{
+    scale: 1.1;
+}
+
+/*SECOND TARIFF ADDITIONAL SERVICES */
+.second_tariff{
+    margin-top: 4rem;
+    margin-left: 1.5rem;
+    background-color: rgb(59, 59, 55);
+    width: 270px;
+    border-radius: 20px;
+    border: 3px solid rgb(164, 197, 17);
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.9);
+}
+.addi{
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(211, 231, 123);
+}
+.button_tariff4{
+    margin-top: 40px;
+    margin-bottom: 25px;
+    margin-left: 31%;
+    border: 1px solid rgb(211, 231, 123);
+    border-radius: 10px;
+    outline: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(31, 30, 30);
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.6);
+}
+.button_tariff4:hover{
+    scale: 1.1;
+}
+
+/*--------------------------------------------------*/
+
+
+ }
+ 
+
+
