@@ -1557,7 +1557,8 @@ span{
     margin-top: 4rem;
     display: flex;
     align-items: center;
-    padding-right: 30px;
+    padding-right: 20px;
+    padding-right: 20px;
     margin-left: 0;
     height: auto;
     flex-direction: column;
@@ -1589,7 +1590,8 @@ span{
     display: block;
     align-items: center;
     width: auto;
-    padding-right: 30px;
+    padding-left: 20px;
+    padding-right: 25px;
     margin-top: 2rem;
  }     
  .div_reduced{
@@ -1619,7 +1621,7 @@ span{
     align-items: center;
     margin-left: 0;
     width: auto;
-    padding-right: 20px;
+    padding-right: 10px;
     margin-top: 3rem;
     flex-direction: column;
  }
@@ -1644,7 +1646,7 @@ span{
     color: rgb(63, 60, 60);
  }
  .unique_pic img{
-    margin-right: 40px;
+    margin-right: 55px;
     width: 60%;
     height: 14rem;
  }
