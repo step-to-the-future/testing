@@ -1554,10 +1554,11 @@ span{
     margin-left: 10px;
 }
 .text_pic{
-    margin-top: 3rem;
+    margin-top: 4rem;
     display: flex;
     align-items: center;
-    padding-left: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-left: 0;
     height: auto;
     flex-direction: column;
@@ -1582,7 +1583,7 @@ span{
 }
 .text_pic img{
     margin-right: 80px;
-    width: 75%;
+    width: 80%;
 }
 
 .text_reduced{
