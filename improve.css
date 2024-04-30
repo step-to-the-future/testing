@@ -1457,26 +1457,27 @@ header{
 
   /*STYLE OF SPAN INSIDE THE "HELLO" /DIV/ */
 .HELLO P{
-    font-size: 20px;
+    font-size: 21px;
 }
 .HELLO span{
-    font-size: 20px;
+    font-size: 21px;
 }
 .p6{
-    margin-left: 8px;
+    margin-left: 7px;
 }
 .p8{
-    margin-left: 8px;
+    margin-left: 7px;
 }
   
   /*The second beginnig of the body part*/
   .tailored{
       margin-top: 30px;
       text-align: center;
-     
+      width: 80%;
+      margin-left: 2.5rem;
   }
   .tailored .tap{
-      font-size: 16px;
+      font-size: 20px;
       font-weight: 600;
   }
   
