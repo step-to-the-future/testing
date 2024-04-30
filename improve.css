@@ -1621,7 +1621,7 @@ span{
     align-items: center;
     margin-left: 0;
     width: auto;
-    padding-right: 10px;
+    padding-right: 25px;
     margin-top: 3rem;
     flex-direction: column;
  }
@@ -1646,7 +1646,7 @@ span{
     color: rgb(63, 60, 60);
  }
  .unique_pic img{
-    margin-right: 15px;
+    margin-right: 5px;
     width: 60%;
     height: 14rem;
  }
