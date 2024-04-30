@@ -1380,17 +1380,16 @@ header{
     left: 0;
     right: 0;
     background-color:  rgb(31, 30, 30);
-    height: 70px; 
+    height: 50px; 
     z-index: 98; 
      
 }
 .black{
-    height: 90px;
+    height: 65px;
 }
 .navbar{
     display: flex;
     align-items: center;
-    position: fixed;
 }
 
 
