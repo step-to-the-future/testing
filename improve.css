@@ -1557,7 +1557,6 @@ span{
     margin-top: 4rem;
     display: flex;
     align-items: center;
-    padding-left: 20px;
     padding-right: 30px;
     margin-left: 0;
     height: auto;
@@ -1582,7 +1581,7 @@ span{
     color: rgb(63, 60, 60);
 }
 .text_pic img{
-    margin-right: 1rem;
+    margin-right: 0.5rem;
     width: 80%;
 }
 
@@ -1590,8 +1589,7 @@ span{
     display: block;
     align-items: center;
     width: auto;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-right: 30px;
     margin-top: 2rem;
  }     
  .div_reduced{
@@ -1613,7 +1611,7 @@ span{
  }
  .text_reduced img{
     width: 65%;
-    margin-left: 3.5rem;
+    margin-left: 3rem;
  }  
 
  .unique_pic{
@@ -1621,8 +1619,7 @@ span{
     align-items: center;
     margin-left: 0;
     width: auto;
-    padding-left: 20px;
-    padding-right: 25px;
+    padding-right: 20px;
     margin-top: 3rem;
     flex-direction: column;
  }
@@ -1648,7 +1645,7 @@ span{
  }
  .unique_pic img{
     margin-right: 40px;
-    width: 50%;
+    width: 60%;
     height: 14rem;
  }
 /*--------------------------------------------------*/
