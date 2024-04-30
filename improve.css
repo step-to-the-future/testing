@@ -1577,12 +1577,12 @@ span{
 .sub_monitor{
     font-size: 15px;
     width: auto;
-    margin-top: 5px;
+    margin-top: 8px;
     font-weight: bold;
     color: rgb(63, 60, 60);
 }
 .text_pic img{
-    margin-right: 80px;
+    margin-right: 1.5rem;
     width: 80%;
 }
 
@@ -1590,28 +1590,30 @@ span{
     display: block;
     align-items: center;
     width: auto;
+    padding-left: 25px;
+    padding-right: 25px;
     margin-top: 2rem;
  }     
  .div_reduced{
     width: auto;
-    padding-left: 35px;
+    padding-left: 0;
     margin-top: -10px;
  } 
  .reduced{
     font-size: 19px;
     font-weight: bold;
-    width: 80%;
+    width: auto;
  }
  .sub_reduced{
     font-size: 15px;
-    width: 70%;
-    margin-top: 5px;
+    width: auto;
+    margin-top: 8px;
     font-weight: bold;
     color: rgb(63, 60, 60);
  }
  .text_reduced img{
-    width: 50%;
-    margin-left: 3rem;
+    width: 60%;
+    margin-left: 3.5rem;
  }  
 
  .unique_pic{
