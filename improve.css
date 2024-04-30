@@ -1544,7 +1544,7 @@ header{
 /*CSS STYLE FOR LETTERS IN WHY ELEMENT*/
 .why p,
 span{
-  font-size: 25px;
+  font-size: 30px;
   font-weight: bold;
 }
 .why span{
@@ -1571,18 +1571,18 @@ span{
 .monitor{
     font-size: 19px;
     font-weight: bold;
-    width: 80%;
+    width: auto;
 }
 .sub_monitor{
     font-size: 15px;
-    width: 70%;
+    width: auto;
     margin-top: 5px;
     font-weight: bold;
     color: rgb(63, 60, 60);
 }
 .text_pic img{
     margin-right: 80px;
-    width: 65%;
+    width: 75%;
 }
 
 .text_reduced{
