@@ -1451,7 +1451,7 @@ header{
     text-align: center;
     justify-content: center;
     align-items: center;
-    margin-top: 110px;  
+    margin-top: 140px;  
   }
 
 
@@ -1471,7 +1471,7 @@ header{
   
   /*The second beginnig of the body part*/
   .tailored{
-      margin-top: 30px;
+      margin-top: 45px;
       text-align: center;
       width: 90%;
       margin-left: 1rem;
@@ -1486,13 +1486,13 @@ header{
   /*Button get started*/
   .getstarted{
       border-radius: 10px;
-      margin-top: 45px;
-      margin-left: 40%;
+      margin-top: 55px;
+      margin-left: 34%;
       outline: none;
       border: none;
       padding: 0.5rem 1rem;
       cursor: pointer;
-      font-size: 10px;
+      font-size: 15px;
       color: white;
       background-color: rgb(31, 30, 30);
       font-weight: bold;
