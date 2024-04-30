@@ -1558,7 +1558,7 @@ span{
     display: flex;
     align-items: center;
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 30px;
     margin-left: 0;
     height: auto;
     flex-direction: column;
@@ -1582,7 +1582,7 @@ span{
     color: rgb(63, 60, 60);
 }
 .text_pic img{
-    margin-right: 1.5rem;
+    margin-right: 1rem;
     width: 80%;
 }
 
@@ -1612,7 +1612,7 @@ span{
     color: rgb(63, 60, 60);
  }
  .text_reduced img{
-    width: 60%;
+    width: 65%;
     margin-left: 3.5rem;
  }  
 
@@ -1621,6 +1621,8 @@ span{
     align-items: center;
     margin-left: 0;
     width: auto;
+    padding-left: 20px;
+    padding-right: 25px;
     margin-top: 3rem;
     flex-direction: column;
  }
@@ -1639,13 +1641,13 @@ span{
  }
  .sub_unique{
     font-size: 15px;
-    width: 70%;
-    margin-top: 5px;
+    width: auto;
+    margin-top: 8px;
     font-weight: bold;
     color: rgb(63, 60, 60);
  }
  .unique_pic img{
-    margin-right: 80px;
+    margin-right: 40px;
     width: 50%;
     height: 14rem;
  }
