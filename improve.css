@@ -769,7 +769,6 @@ span{
   .answer.active{
     height: 6rem;
     margin-top: 0.5rem;
-    animation: fade 1s ease-in-out;
   }
   .answer p{
      color: white;
@@ -803,7 +802,6 @@ span{
   .answer2.active{
     height: 7.5rem;
     margin-top: 0.5rem;
-    animation: fade 1s ease-in-out;
   }
   .icon2.active{
     transform: rotate(180deg);
@@ -831,7 +829,6 @@ span{
   .answer3.active{
     height: 4.5rem;
     margin-top: 0.5rem;
-    animation: fade 1s ease-in-out;
   }
   .icon3.active{
     transform: rotate(180deg);
@@ -1561,7 +1558,6 @@ span{
   }
   .answer.active{
     height: 9rem;
-    animation: fade 1s ease-in-out;
   }
   .answer p{
      padding-top: 0.2rem;
@@ -1596,7 +1592,6 @@ span{
   }
   .answer2.active{
     height: 11rem;
-    animation: fade 1s ease-in-out;
   }
   .icon2.active{
     transform: rotate(180deg);
@@ -1624,23 +1619,12 @@ span{
   }
   .answer3.active{
     height: 7rem;
-    animation: fade 1s ease-in-out;
   }
   .icon3.active{
     transform: rotate(180deg);
   }
   .bottom{
     margin-bottom: 15px;
-  }
-      @keyframes fade {
-    from{
-      opacity: 0;
-      transform: translateY(-18px);
-    }
-    to{
-      opacity: 1;
-      transform: translateY(0px);
-    }
   }
 
 
@@ -2215,7 +2199,6 @@ span{
   .answer.active{
     height: 6.7rem;
     margin-top: 0.5rem;
-    animation: fade 1s ease-in-out;
   }
   .answer p{
      color: white;
@@ -2250,7 +2233,6 @@ span{
   .answer2.active{
     height: 8.8rem;
     margin-top: 0;
-    animation: fade 1s ease-in-out;
   }
   .icon2.active{
     transform: rotate(180deg);
@@ -2279,7 +2261,6 @@ span{
   .answer3.active{
     height: 5.6rem;
     margin-top: 0;
-    animation: fade 1s ease-in-out;
   }
   .icon3.active{
     transform: rotate(180deg);
@@ -2288,16 +2269,6 @@ span{
     margin-bottom: 15px;
   }
   
-  @keyframes fade {
-    from{
-      opacity: 0;
-      transform: translateY(-18px);
-    }
-    to{
-      opacity: 1;
-      transform: translateY(0px);
-    }
-  }
 
 
 
