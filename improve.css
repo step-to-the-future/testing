@@ -6,8 +6,10 @@
     font-size: 'Open sans', sans-serif;
 }
 
-*:focus{
+body:focus{
+    background-color: transparent;
     outline: none;
+    border: none;
   }
 
 body{
