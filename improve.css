@@ -2180,7 +2180,7 @@ span{
   .faq{
     color: white;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     margin-bottom: 10px;
   }
   .faq_hr{
@@ -2206,10 +2206,11 @@ span{
     display: flex;
   }
   .question p{
-    font-size: 13px;
+    font-size: 14px;
     font-weight: bold;
     color: rgb(190, 165, 212);
     width: 80%;
+    line-height: 1.3rem;
   }
   .icon{
     width: 8px;
