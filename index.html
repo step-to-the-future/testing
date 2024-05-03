@@ -375,7 +375,7 @@
     </div>
     
     
-    <div class="div_questions" onclick="headanswer2()">
+    <div class="div_questions" onclick="toggleanswer2()">
     
     
       <div class="question">
@@ -627,7 +627,12 @@
 document.querySelector('.answer').classList.toggle('active');
   document.querySelector('.icon').classList.toggle('active');
 };
+    function toggleanswer2() {
+document.querySelector('.answer2').classList.toggle('active');
+document.querySelector('.icon2').classList.toggle('active');
+};
 
+    
 
     
 /* The js code for "dropdown-arrow2 to open the window with the list"*/
