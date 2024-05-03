@@ -897,7 +897,6 @@ span{
      .dropdown-menu.active{
         height: 100vh;
         top: 0;
-        animation: fade 1s ease-in-out; 
      }
 
      .toggle_icon{
@@ -1666,7 +1665,6 @@ span{
      .dropdown-menu.active{
         height: 100vh;
         top: 0;
-        animation: fade 1s ease-in-out;
      }
 
 header{
