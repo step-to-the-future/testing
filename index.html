@@ -353,7 +353,7 @@
 <div class="Faq">
     <p class="faq">Frequently Asked Questions</p>
     <hr class="faq_hr">
-    <div class="div_questions"  onclick="mouseanswer()">
+    <div class="div_questions"  onclick="toggleMenu()">
     
     
       <div class="question">
@@ -622,6 +622,8 @@
                     function toggleMenu() {
   document.querySelector('.dropdown-menu').classList.toggle('active');
   document.querySelector('.toggle_icon').classList.toggle('active');
+  document.querySelector('.answer').classList.toggle('active');
+  document.querySelector('.icon').classList.toggle('active');
 };
 
 
