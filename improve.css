@@ -839,18 +839,10 @@ span{
   .bottom{
     margin-bottom: 15px;
   }
-  
-  @keyframes fade {
-    from{
-      opacity: 0;
-      transform: translateY(-18px);
-    }
-    to{
-      opacity: 1;
-      transform: translateY(0px);
-    }
-  }
 
+
+  
+ 
 
  /* ----------"THE END OF THE HEADER_____________NUMBER: 1"---------------------*/
 
@@ -1641,8 +1633,7 @@ span{
   .bottom{
     margin-bottom: 15px;
   }
-  
-  @keyframes fade {
+      @keyframes fade {
     from{
       opacity: 0;
       transform: translateY(-18px);
@@ -1652,6 +1643,7 @@ span{
       transform: translateY(0px);
     }
   }
+
 
 /*--------------------------------------------------*/
 
@@ -1673,7 +1665,8 @@ span{
 
      .dropdown-menu.active{
         height: 100vh;
-        top: 0; 
+        top: 0;
+        animation: fade 1s ease-in-out;
      }
 
 header{
