@@ -353,7 +353,7 @@
 <div class="Faq">
     <p class="faq">Frequently Asked Questions</p>
     <hr class="faq_hr">
-    <div class="div_questions"  onclick="toggleanswer()">
+    <div class="div_questions"  onclick="mouseanswer()">
     
     
       <div class="question">
@@ -375,7 +375,7 @@
     </div>
     
     
-    <div class="div_questions" onclick="toggleanswer2()">
+    <div class="div_questions" onclick="headanswer2()">
     
     
       <div class="question">
@@ -399,7 +399,7 @@
     
     
     <div class="bottom">
-    <div class="div_questions" onclick="toggleanswer3()">
+    <div class="div_questions" onclick="glassanswer3()">
     
       
      <div class="question">
@@ -456,19 +456,19 @@
           ------------                  ---------------
                                         
 -->   
-            function toggleanswer() {
+            function mouseanswer() {
   document.querySelector('.answer').classList.toggle('active');
   document.querySelector('.icon').classList.toggle('active');
 };
 
 
-function toggleanswer2() {
+function headanswer2() {
   document.querySelector('.answer2').classList.toggle('active');
   document.querySelector('.icon2').classList.toggle('active');
 };
 
 
-function toggleanswer3() {
+function glassanswer3() {
   document.querySelector('.answer3').classList.toggle('active');
   document.querySelector('.icon3').classList.toggle('active');
 };   
