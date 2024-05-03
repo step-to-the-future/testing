@@ -353,7 +353,7 @@
 <div class="Faq">
     <p class="faq">Frequently Asked Questions</p>
     <hr class="faq_hr">
-    <div class="div_questions"  onclick="toggleMenu()">
+    <div class="div_questions"  onclick="toggleanswer()">
     
     
       <div class="question">
@@ -622,11 +622,14 @@
                     function toggleMenu() {
   document.querySelector('.dropdown-menu').classList.toggle('active');
   document.querySelector('.toggle_icon').classList.toggle('active');
-  document.querySelector('.answer').classList.toggle('active');
+};
+      function toggleanswer() {
+document.querySelector('.answer').classList.toggle('active');
   document.querySelector('.icon').classList.toggle('active');
 };
 
 
+    
 /* The js code for "dropdown-arrow2 to open the window with the list"*/
 const toggleBn2 = document.querySelector('.dropdown-box2')
             const toggleBtnico2 = document.querySelector('.dropdown-box2 i')
