@@ -5,6 +5,11 @@
     box-sizing: border-box;
     font-size: 'Open sans', sans-serif;
 }
+
+*:focus{
+    outline: none;
+  }
+
 body{
     background-color:  rgb(253, 255, 255);
 }
@@ -2201,9 +2206,6 @@ span{
     padding: 15px 0;
     border-bottom: 2px solid green;
     cursor: pointer;
-  }
-  .div_questions:focus{
-    outline: none;
   }
   .question{
     display: flex;
