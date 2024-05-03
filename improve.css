@@ -43,7 +43,7 @@ body{
 
 /*Styles of main header*/ 
 .black{
-      background-color: rgba(10, 141, 39, 0.8);
+      background-color: rgba(53, 59, 55, 0.8);
       height: 110px;
       top: 0;
       left: 0;
@@ -700,6 +700,158 @@ span{
 
 /*--------------------------------------------------*/
 
+
+
+/*
+                                      ---------------- 
+                                   --------------------             
+                               ------------------------
+                           ----------------------------
+                       --------------------------------
+                 ----------             ---------------
+          ------------                  ---------------
+          
+*/
+.Faq{
+    margin-top: 12rem;
+    background: linear-gradient(rgb(58, 57, 57), rgb(31, 30, 30) );
+    border-radius: 20px;
+    padding: 10px 30px;
+    width: 85%;
+    margin-left: 8%;
+  }
+  .faq{
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  .faq_hr{
+    margin-top: 0;
+    height: 10px;
+    border: none;
+    background-color: blueviolet;
+    width: 38%;
+    border-radius: 10px;
+    margin-left: -10px;
+    margin-bottom: 20px;
+  }
+  
+  
+  
+  .div_questions{
+    margin-top: 20px;  
+    padding: 15px 20px;
+    border-bottom: 2px solid green;
+    cursor: pointer;
+  }
+  .question{
+    display: flex;
+  }
+  .question p{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: rgb(190, 165, 212);
+    width: 80%;
+  }
+  .icon{
+    margin-top: 5px;
+    margin-left: 20%;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+  }
+  .answer{
+    
+    overflow-y: hidden;
+    height: 0;
+    transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  .answer.active{
+    height: 6rem;
+    margin-top: 0.5rem;
+    animation: fade 1s ease-in-out;
+  }
+  .answer p{
+     color: white;
+     font-size: 20px;
+     font-weight: bold;
+     width: 90%;
+  }
+  .icon.active{
+    transform: rotate(180deg);
+  }
+  
+  
+  
+  .icon2{
+    margin-top: 5px;
+    margin-left: 20%;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+  }
+  .answer2 p{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    width: 90%;
+  }
+  .answer2{
+    overflow-y: hidden;
+    height: 0;
+    transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  .answer2.active{
+    height: 7.5rem;
+    margin-top: 0.5rem;
+    animation: fade 1s ease-in-out;
+  }
+  .icon2.active{
+    transform: rotate(180deg);
+  }
+  
+  
+  
+  .icon3{
+    margin-top: 5px;
+    margin-left: 20%;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+  }
+  .answer3 p{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    width: 85%;
+  }
+  .answer3{
+    overflow-y: hidden;
+    height: 0;
+    transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  .answer3.active{
+    height: 4.5rem;
+    margin-top: 0.5rem;
+    animation: fade 1s ease-in-out;
+  }
+  .icon3.active{
+    transform: rotate(180deg);
+  }
+  .bottom{
+    margin-bottom: 15px;
+  }
+  
+  @keyframes fade {
+    from{
+      opacity: 0;
+      transform: translateY(-18px);
+    }
+    to{
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+
+
  /* ----------"THE END OF THE HEADER_____________NUMBER: 1"---------------------*/
 
  
@@ -752,7 +904,8 @@ span{
 
      .dropdown-menu.active{
         height: 100vh;
-        top: 0; 
+        top: 0;
+        animation: fade 1s ease-in-out; 
      }
 
      .toggle_icon{
@@ -1351,6 +1504,155 @@ span{
     scale: 1.1;
 }
 
+     
+/*
+                                      ---------------- 
+                                   --------------------             
+                               ------------------------
+                           ----------------------------
+                       --------------------------------
+                 ----------             ---------------
+          ------------                  ---------------
+          
+*/
+.Faq{
+    margin-top: 12rem;
+    background: linear-gradient(rgb(58, 57, 57), rgb(31, 30, 30) );
+    border-radius: 20px;
+    padding: 10px 30px;
+    width: 85%;
+    margin-left: 8%;
+  }
+  .faq{
+    color: white;
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  .faq_hr{
+    margin-top: 0;
+    height: 10px;
+    border: none;
+    background-color: blueviolet;
+    width: 72%;
+    border-radius: 10px;
+    margin-left: -10px;
+    margin-bottom: 20px;
+  }
+  
+  
+  
+  .div_questions{
+    margin-top: 0;  
+    padding: 15px 20px;
+    border-bottom: 2px solid green;
+    cursor: pointer;
+  }
+  .question{
+    display: flex;
+  }
+  .question p{
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: rgb(190, 165, 212);
+    width: 80%;
+  }
+  .icon{
+    margin-top: 5px;
+    margin-left: 18%;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+  }
+  .answer{
+    overflow-y: hidden;
+    height: 0;
+    transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  .answer.active{
+    height: 9rem;
+    animation: fade 1s ease-in-out;
+  }
+  .answer p{
+     padding-top: 0.2rem;
+     color: white;
+     font-size: 17px;
+     font-weight: bold;
+     width: 95%;
+  }
+  .icon.active{
+    transform: rotate(180deg);
+  }
+  
+  
+  
+  .icon2{
+    margin-top: 15px;
+    margin-left: 18%;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+  }
+  .answer2 p{
+    padding-top: 0.8rem;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    width: auto;
+  }
+  .answer2{
+    overflow-y: hidden;
+    height: 0;
+    transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  .answer2.active{
+    height: 11rem;
+    animation: fade 1s ease-in-out;
+  }
+  .icon2.active{
+    transform: rotate(180deg);
+  }
+  
+  
+  
+  .icon3{
+    margin-top: 15px;
+    margin-left: 18%;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+  }
+  .answer3 p{
+    padding-top: 0.8rem;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    width: 90%;
+  }
+  .answer3{
+    overflow-y: hidden;
+    height: 0;
+    transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  .answer3.active{
+    height: 7rem;
+    animation: fade 1s ease-in-out;
+  }
+  .icon3.active{
+    transform: rotate(180deg);
+  }
+  .bottom{
+    margin-bottom: 15px;
+  }
+  
+  @keyframes fade {
+    from{
+      opacity: 0;
+      transform: translateY(-18px);
+    }
+    to{
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+
 /*--------------------------------------------------*/
 
  }
@@ -1852,6 +2154,161 @@ span{
 .button_tariff4:hover{
     scale: 1.1;
 }
+
+     
+/*
+                                      ---------------- 
+                                   --------------------             
+                               ------------------------
+                           ----------------------------
+                       --------------------------------
+                 ----------             ---------------
+          ------------                  ---------------
+          
+*/
+.Faq{
+    margin-top: 12rem;
+    background: linear-gradient(rgb(58, 57, 57), rgb(31, 30, 30) );
+    border-radius: 20px;
+    padding: 10px 30px;
+    width: 85%;
+    margin-left: 8%;
+  }
+  .faq{
+    color: white;
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+  }
+  .faq_hr{
+    margin-top: 0;
+    height: 7px;
+    border: none;
+    background-color: blueviolet;
+    width: 103%;
+    border-radius: 10px;
+    margin-left: -7px;
+    margin-bottom: 20px;
+  }
+  
+  
+  
+  .div_questions{
+    margin-top: 0;  
+    padding: 15px 0;
+    border-bottom: 2px solid green;
+    cursor: pointer;
+  }
+  .question{
+    display: flex;
+  }
+  .question p{
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(190, 165, 212);
+    width: 80%;
+  }
+  .icon{
+    width: 8px;
+    margin-top: 10px;
+    margin-left: 10%;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+  }
+  .answer{
+    
+    overflow-y: hidden;
+    height: 0;
+    transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  .answer.active{
+    height: 6.7rem;
+    margin-top: 0.5rem;
+    animation: fade 1s ease-in-out;
+  }
+  .answer p{
+     color: white;
+     font-size: 11px;
+     font-weight: bold;
+     width: 95%;
+  }
+  .icon.active{
+    transform: rotate(180deg);
+  }
+  
+  
+  
+  .icon2{
+    width: 8px;
+    margin-top: 25px;
+    margin-left: 10%;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+  }
+  .answer2 p{
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+    width: 90%;
+  }
+  .answer2{
+    overflow-y: hidden;
+    height: 0;
+    transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  .answer2.active{
+    height: 8.8rem;
+    margin-top: 0;
+    animation: fade 1s ease-in-out;
+  }
+  .icon2.active{
+    transform: rotate(180deg);
+  }
+  
+  
+  
+  .icon3{
+    width: 8px;
+    margin-top: 25px;
+    margin-left: 10%;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+  }
+  .answer3 p{
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+    width: 95%;
+  }
+  .answer3{
+    overflow-y: hidden;
+    height: 0;
+    transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  .answer3.active{
+    height: 5.6rem;
+    margin-top: 0;
+    animation: fade 1s ease-in-out;
+  }
+  .icon3.active{
+    transform: rotate(180deg);
+  }
+  .bottom{
+    margin-bottom: 15px;
+  }
+  
+  @keyframes fade {
+    from{
+      opacity: 0;
+      transform: translateY(-18px);
+    }
+    to{
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+
+
 
 /*--------------------------------------------------*/
 
