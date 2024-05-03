@@ -2202,6 +2202,9 @@ span{
     border-bottom: 2px solid green;
     cursor: pointer;
   }
+  .div_questions:focus{
+    outline: none;
+  }
   .question{
     display: flex;
   }
