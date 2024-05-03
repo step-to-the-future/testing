@@ -7,6 +7,7 @@
         content="width=device-width,
         initial-scale=1.0"> 
         <link href="improve.css" rel="stylesheet" type="text/css"> 
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     </head>
     <body> 
         <div class="transparent">
@@ -101,11 +102,11 @@
 </div>
 <!----------------------------------------------------------------------------------------------->
 
-<button class="getstarted">Get started</button>
+<button class="getstarted" data-aos="fade-up" data-aos-duration="2000">Get started</button>
 
 
 
-<div class="huge-div">
+<div class="huge-div" data-aos="fade-right">
     <p class="div_title">INTRODUCING T&M,</p>
     <p class="div_description">The premium accounting service for logistics companies. Our multilingual team offers 24/7 support 
         tailored to the industry's unique needs. Get in touch with us today and let us simplify 
@@ -320,6 +321,121 @@
     <button class="button_tariff4">Get started</button>
 </div>
 </div>
+
+
+<!--
+
+                                      ---------------- 
+                                   --------------------             
+                               ------------------------
+                           ----------------------------
+                       --------------------------------
+                 ----------             ---------------
+          ------------                  ---------------
+                                        ---------------
+                                        ---------------
+                                        ---------------
+                                        ---------------
+                                        ---------------
+                                        ---------------
+                                        ---------------
+                                        ---------------
+                                        ---------------
+                                        ---------------
+                                        ---------------
+                                        ---------------
+                                        ---------------
+                                        ---------------
+                                        ---------------
+                                        ---------------
+                                        ---------------
+                                        ---------------
+-->
+<div class="Faq">
+    <p class="faq">Frequently Asked Questions</p>
+    <hr class="faq_hr">
+    <div class="div_questions"  onclick="toggleanswer()">
+    
+    
+      <div class="question">
+    
+      <p class="what">What is the pricing associated with your tariffs?</p>
+    
+    <svg width="12" height="10" viewBox="0 0 42 25" class="icon">
+      <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+    </svg>
+    </div>
+    
+    
+    <div class="answer">
+      <p class="sub_answer">The pricing details for our tariffs can be found in the attached document below. Simply click on the link to access 
+        the price list and review the associated prices for each tariff. If you have any questions or need further assistance, 
+        our team is here to help.
+      </p>
+    </div>
+    </div>
+    
+    
+    <div class="div_questions" onclick="toggleanswer2()">
+    
+    
+      <div class="question">
+    
+      <p class="what2">Can i customize or create my own tariffs that suit the specific needs of my company?</p>
+    
+    <svg width="12" height="10" viewBox="0 0 42 25" class="icon2">
+      <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+    </svg>
+    </div>
+    
+    
+    <div class="answer2">
+      <p class="sub_answer2">Yes, we offer the flexibility for our partners to construct their own tariffs according to their specific needs. 
+        We understand that each business is unique, and we are committed to providing tailored financial solutions.
+        Our team will work closely with you to understand your 
+        requirements and help you create customized tariffs that align with your objectives.
+      </p>
+    </div>
+    </div>
+    
+    
+    <div class="bottom">
+    <div class="div_questions" onclick="toggleanswer3()">
+    
+      
+     <div class="question">
+    
+      <p class="what3">Are your financial solutions availiable for both small and large logistic comapanies?</p>
+    
+    <svg width="12" height="10" viewBox="0 0 42 25" class="icon3">
+      <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+    </svg>
+    </div>
+    
+    
+    <div class="answer3">
+      <p class="fuck_3">Yes, our financial solutions are designed to cater to the needs of both small and large logistic companies. 
+        We understand that businesses come in different sizes and have unique financial requirements.
+      </p>
+    </div>
+    </div>
+    </div>
+    
+    </div>
+
+ <!--
+
+                                      ---------------- 
+                                   --------------------             
+                               ------------------------
+                           ----------------------------
+                       --------------------------------
+                 ----------             ---------------
+          ------------                  ---------------
+                                        
+-->
+        
+        
 <br><br >
 <br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br>
@@ -371,6 +487,13 @@
         const subuniqueEl = document.querySelector('.sub_unique');
         const tariffEl = document.querySelector('.tariff');
         const span_riff = document.querySelector('.span_riff2');
+        const faqEl = document.querySelector('.faq');
+        const whatEl = document.querySelector('.what');
+        const what2El = document.querySelector('.what2');
+        const what3El = document.querySelector('.what3');
+        const answerEl = document.querySelector('.sub_answer');
+        const wanderingEl = document.querySelector('.fuck_3');
+        const answer2El = document.querySelector('.sub_answer2');
 
         langButtons.forEach(button => {
                 button.addEventListener('click',() => {
@@ -412,6 +535,13 @@
                     subuniqueEl.textContent = data[selectedLang].sub_unique;
                     tariffEl.textContent = data[selectedLang].tariff;
                     span_riff.textContent = data[selectedLang].span_riff2;
+                    faqEl.textContent = data[selectedLang].faq;
+                    whatEl.textContent = data[selectedLang].what;    
+                    what2El.textContent = data[selectedLang].what2;
+                    what3El.textContent = data[selectedLang].what3;
+                    answerEl.textContent = data[selectedLang].sub_answer;
+                    wanderingEl.textContent = data[selectedLang].fuck_3;
+                    answer2El.textContent = data[selectedLang].sub_answer2;
                 });
                 });
 
@@ -456,7 +586,14 @@
                     "unique" : "Unique approach and systems",
                     "sub_unique" : "We pay serious attention to the efficiency and quality of the invoices and statements we prepare.",
                     "tariff" : "ARIFF",
-                    "span_riff2" : "S"
+                    "span_riff2" : "S",
+                     "faq" : "Frequently Asked Questions",
+                    "what" : "What is the pricing associated with your tariffs?",
+                    "sub_answer" : "The pricing details for our tariffs can be found in the attached document below. Simply click on the link to access the price list and review the associated prices for each tariff. If you have any questions or need further assistance, our team is here to help.",
+                    "what2" : "Can i customize or create my own tariffs that suit the specific needs of my company?",
+                    "sub_answer2" : "Yes, we offer the flexibility for our partners to construct their own tariffs according to their specific needs.We understand that each business is unique, and we are committed to providing tailored financial solutions.Our team will work closely with you to understand your requirements and help you create customized tariffs that align with your objectives.",
+                    "fuck_3" : "Yes, our financial solutions are designed to cater to the needs of both small and large logistic companies.We understand that businesses come in different sizes and have unique financial requirements.",
+                    "what3" : "Are your financial solutions availiable for both small and large logistic comapanies?"
                 },
                 "russian":
                 {
@@ -497,7 +634,14 @@
                     "unique" : "Уникальный подход и системы",
                     "sub_unique" : "Мы уделяем серьезное внимание оперативности и качеству счетов и отчетов, которые мы готовим.",
                     "tariff" : "АРИФ",
-                    "span_riff2" : "Ы"
+                    "span_riff2" : "Ы",
+                     "faq" : "Часто задаваемые вопросы",
+                    "what" : "Какие цены у ваших тарифов?",
+                    "sub_answer" : "Подробную информацию о ценах на наши тарифы можно найти в прикрепленном документе ниже. Просто нажмите на ссылку, чтобы получить доступ на прайс-лист и просмотрите соответствующие цены для каждого тарифа. Если у вас есть какие-либо вопросы или вам нужна дополнительная помощь, наша команда здесь, чтобы помочь.",
+                    "what2" : "Могу ли я настроить или создать свои собственные тарифы, соответствующие конкретным потребностям моей компании?",
+                    "sub_answer2" : "Да, мы предлагаем нашим партнерам возможность создавать собственные тарифы в соответствии со своими конкретными потребностями.Мы понимаем, что каждый бизнес уникален, и стремимся предоставлять индивидуальные финансовые решения.Наша команда будет тесно сотрудничать с вами, чтобы понять ваши требованиям и помочь вам создать индивидуальные тарифы, соответствующие вашим целям.",
+                    "fuck_3" : "Да, наши финансовые решения предназначены для удовлетворения потребностей как малых, так и крупных логистических компаний. Мы понимаем, что предприятия бывают разных размеров и имеют уникальные финансовые требования.",
+                    "what3" : "Доступны ли ваши финансовые решения как малым, так и крупным логистическим компаниям?"
                 }
             }  
 
@@ -529,6 +673,43 @@ const toggleBn2 = document.querySelector('.dropdown-box2')
                 dropdownArrow2.classList.remove('open');
             }
                     });
+
+    
+
+     <!--
+
+                                      ---------------- 
+                                   --------------------             
+                               ------------------------
+                           ----------------------------
+                       --------------------------------
+                 ----------             ---------------
+          ------------                  ---------------
+                                        
+-->   
+            function toggleanswer() {
+  document.querySelector('.answer').classList.toggle('active');
+  document.querySelector('.icon').classList.toggle('active');
+}
+
+
+function toggleanswer2() {
+  document.querySelector('.answer2').classList.toggle('active');
+  document.querySelector('.icon2').classList.toggle('active');
+}
+
+
+function toggleanswer3() {
+  document.querySelector('.answer3').classList.toggle('active');
+  document.querySelector('.icon3').classList.toggle('active');
+};   
+
 </script>  
+        
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+        
     </body>
 </html>
