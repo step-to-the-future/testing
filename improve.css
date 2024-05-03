@@ -2226,13 +2226,13 @@ span{
     transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   }
   .answer.active{
-    height: 6.7rem;
+    height: 8rem;
     margin-top: 0.5rem;
     animation: fade 1s ease-in-out;
   }
   .answer p{
      color: white;
-     font-size: 11px;
+     font-size: 15px;
      font-weight: bold;
      width: 95%;
   }
@@ -2251,7 +2251,7 @@ span{
   }
   .answer2 p{
     color: white;
-    font-size: 11px;
+    font-size: 15px;
     font-weight: bold;
     width: 90%;
   }
@@ -2261,7 +2261,7 @@ span{
     transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   }
   .answer2.active{
-    height: 8.8rem;
+    height: 13rem;
     margin-top: 0;
     animation: fade 1s ease-in-out;
   }
@@ -2280,7 +2280,7 @@ span{
   }
   .answer3 p{
     color: white;
-    font-size: 11px;
+    font-size: 15px;
     font-weight: bold;
     width: 95%;
   }
@@ -2290,7 +2290,7 @@ span{
     transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   }
   .answer3.active{
-    height: 5.6rem;
+    height: 7.5rem;
     margin-top: 0;
     animation: fade 1s ease-in-out;
   }
