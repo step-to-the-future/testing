@@ -487,6 +487,8 @@
         const span_riff = document.querySelector('.span_riff2');
         const faqEl = document.querySelector('.faq');
         const whatEl = document.querySelector('.what');
+        const what2El = document.querySelector('.what2');
+        const what3El = document.querySelector('.what3');
 
         langButtons.forEach(button => {
                 button.addEventListener('click',() => {
@@ -530,6 +532,8 @@
                     span_riff.textContent = data[selectedLang].span_riff2;
                     faqEl.textContent = data[selectedLang].faq;
                     whatEl.textContent = data[selectedLang].what;
+                    what2El.textContent = data[selectedLang].what2;
+                    what3El.textContent = data[selectedLang].what3;
                 });
                 });
 
@@ -576,7 +580,9 @@
                     "tariff" : "ARIFF",
                     "span_riff2" : "S",
                     "faq" : "Frequently Asked Questions",
-                    "what" : "What is the pricing associated with your tariffs?"
+                    "what" : "What is the pricing associated with your tariffs?",
+                    "what2" : "Can i customize or create my own tariffs that suit the specific needs of my company?",
+                    "what3" : "Are your financial solutions availiable for both small and large logistic comapanies?"
                 },
                 "russian":
                 {
@@ -619,7 +625,9 @@
                     "tariff" : "АРИФ",
                     "span_riff2" : "Ы",
                     "faq" : "Часто задаваемые вопросы",
-                    "what" : "Какие цены у ваших тарифов?"
+                    "what" : "Какие цены у ваших тарифов?",
+                    "what2" : "Могу ли я настроить или создать свои собственные тарифы, соответствующие конкретным потребностям моей компании?",
+                    "what3" : "Доступны ли ваши финансовые решения как малым, так и крупным логистическим компаниям?"
                 }
             }  
 
