@@ -2222,7 +2222,7 @@ span{
   .icon{
     width: 8px;
     margin-top: 10px;
-    margin-left: 10%;
+    margin-left: 13%;
     cursor: pointer;
     transition: transform 0.5s ease;
   }
@@ -2233,7 +2233,7 @@ span{
     transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   }
   .answer.active{
-    height: 11rem;
+    height: 12rem;
     margin-top: 0.5rem;
     animation: fade 1s ease-in-out;
   }
@@ -2253,7 +2253,7 @@ span{
   .icon2{
     width: 8px;
     margin-top: 25px;
-    margin-left: 10%;
+    margin-left: 13%;
     cursor: pointer;
     transition: transform 0.5s ease;
   }
@@ -2270,7 +2270,7 @@ span{
     transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   }
   .answer2.active{
-    height: 16rem;
+    height: 15rem;
     margin-top: 0;
     animation: fade 1s ease-in-out;
   }
@@ -2283,7 +2283,7 @@ span{
   .icon3{
     width: 8px;
     margin-top: 25px;
-    margin-left: 10%;
+    margin-left: 13%;
     cursor: pointer;
     transition: transform 0.5s ease;
   }
