@@ -485,6 +485,7 @@
         const subuniqueEl = document.querySelector('.sub_unique');
         const tariffEl = document.querySelector('.tariff');
         const span_riff = document.querySelector('.span_riff2');
+        const faqEl = document.querySelector('.faq');
 
         langButtons.forEach(button => {
                 button.addEventListener('click',() => {
@@ -526,6 +527,7 @@
                     subuniqueEl.textContent = data[selectedLang].sub_unique;
                     tariffEl.textContent = data[selectedLang].tariff;
                     span_riff.textContent = data[selectedLang].span_riff2;
+                    faqEl.textContent = data[selectedLang].faq;
                 });
                 });
 
@@ -570,7 +572,8 @@
                     "unique" : "Unique approach and systems",
                     "sub_unique" : "We pay serious attention to the efficiency and quality of the invoices and statements we prepare.",
                     "tariff" : "ARIFF",
-                    "span_riff2" : "S"
+                    "span_riff2" : "S",
+                    "faq" : "Frequently Asked Questions"
                 },
                 "russian":
                 {
@@ -611,7 +614,8 @@
                     "unique" : "Уникальный подход и системы",
                     "sub_unique" : "Мы уделяем серьезное внимание оперативности и качеству счетов и отчетов, которые мы готовим.",
                     "tariff" : "АРИФ",
-                    "span_riff2" : "Ы"
+                    "span_riff2" : "Ы",
+                    "faq" : "Часто задаваемые вопросы"
                 }
             }  
 
