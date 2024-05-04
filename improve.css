@@ -1685,7 +1685,76 @@ span{
         top: 0;
         animation: fade 1s ease-in-out; 
      }
+   .dropdown-menu .highlight{
+      color:  green;
+      font-weight: bold;
+      font-size: 30px;
+  }
+  .dropdown-menu .highlight-p{
+      text-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+      margin-left: 5px;
+      font-size: 27px;
+      color: white;
+      font-style: italic;
+  }
+  .dropdown-menu .icon-container {
+      display: flex;
+      align-items: center;
+      margin-left: 10px;
+      margin-top: 10px;
+  }
+  .dropdown-menu .icon-container img{
+       width: 35px;
+       height: 35px;
+  }
+ 
+  .dropdown-box{
+    margin-top: 4rem;
+    margin-left: 15px;
+    animation: fade 1s ease-in-out;
+ }
+ .dropdown-box2{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    width: 150px;
+ }
+ .dropdown-menu li{
+      list-style: none;
+ }
+ .About2{
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+}
+.About2:hover{
+    color: green;
+}
+.services2{
+    font-size: 19px;
+    color: white;
+    margin-top: 1px;
+}
+.services2:hover{
+    cursor: pointer;
+}
+.dropdown-box2 .ico2{
+    background-image: url(arrow.ico);
+    width: 18px;
+    height: 18px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.ico2{
+    background: transparent;
+    border: none;
+}
 
+
+
+     
 header{
     position: fixed;
     top: 0;
@@ -1712,7 +1781,7 @@ header{
         font-size: 30px;
     }
     .highlight-p{        
-        font-size: 30px;
+        font-size: 27px;
         color: white;
         font-style: italic;
 
