@@ -2181,8 +2181,8 @@ span{
     background: linear-gradient(rgb(58, 57, 57), rgb(31, 30, 30) );
     border-radius: 20px;
     padding: 10px 30px;
-    width: 85%;
-    margin-left: 8%;
+    width: auto;
+    margin-left: 0;
   }
   .faq{
     color: white;
@@ -2287,9 +2287,10 @@ span{
   }
   .answer3 p{
     color: white;
-    font-size: 15px;
-    font-weight: bold;
+    font-size: 16px;
+    font-weight: normal;
     width: 95%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
   }
   .answer3{
     overflow-y: hidden;
@@ -2297,7 +2298,7 @@ span{
     transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   }
   .answer3.active{
-    height: 8.5rem;
+    height: 11rem;
     margin-top: 0;
     animation: fade 1s ease-in-out;
   }
