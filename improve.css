@@ -1034,6 +1034,7 @@ header{
     align-items: center;
     margin-top: 10px;
     width: 140px;
+    margin-left: 25px; 
  }
  .dropdown-menu li{
       list-style: none;
@@ -1683,7 +1684,7 @@ span{
      .dropdown-menu.active{
         height: 100vh;
         top: 0;
-        animation: fade 1s ease-in-out; 
+        animation: none; 
      }
    .dropdown-menu .highlight{
       color:  green;
@@ -1707,18 +1708,32 @@ span{
        width: 35px;
        height: 35px;
   }
- 
   .dropdown-box{
     margin-top: 4rem;
     margin-left: 15px;
-    animation: fade 1s ease-in-out;
  }
+
+ .dropdown-menu .wrap{
+    margin-left: 15px;
+    gap: 10px;
+    height: 0;
+   
+}
+.dropdown-menu .wrap.active{
+  height: 3rem;
+  animation: fade 1.5s ease-in-out;
+  transition: all 1s ease;
+}    
  .dropdown-box2{
     display: flex;
     align-items: center;
     margin-top: 10px;
     width: 150px;
+    margin-left: 15px; 
  }
+
+
+     
  .dropdown-menu li{
       list-style: none;
  }
