@@ -1712,18 +1712,35 @@ span{
     margin-top: 4rem;
     margin-left: 15px;
  }
+.dropdown-menu hr{
+  margin-top: 5px;
+  background-color: green;
+  width: 105px;
+  height: 5px;
+  border-radius: 15px;
+  border: none;
+  margin-left: 15px;
+}
 
+     
  .dropdown-menu .wrap{
     margin-left: 15px;
     gap: 10px;
-    height: 0;
-   
+    height: 0; 
 }
 .dropdown-menu .wrap.active{
   height: 3rem;
   animation: fade 1.5s ease-in-out;
   transition: all 1s ease;
 }    
+.dropdown-menu .hr_div{
+  height: 0;
+}
+.dropdown-menu .hr_div.active{
+  height: 4rem;
+  animation: fade 1.5s ease-in-out;
+  transition: all 1s ease;
+}  
  .dropdown-box2{
     display: flex;
     align-items: center;
