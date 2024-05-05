@@ -1721,6 +1721,21 @@ span{
   border: none;
   margin-left: 15px;
 }
+.dropdown-menu .wrap .lang-button{
+    display: flex;
+    margin-top: 20px;
+    display: block;
+}
+.dropdown-menu .lang-button{
+    font-size: 15px;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    color: rgb(175, 175, 133);
+    cursor: pointer;
+    font-style: oblique;
+    width: 50px
+ }
+     
 
      
  .dropdown-menu .wrap{
