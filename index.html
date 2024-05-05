@@ -72,14 +72,21 @@
             <div class="wrap">
                 <button data-lang="english" class="lang-button">EN</button>
                 <button data-lang="russian" class="lang-button">RU</button>
-            </div><hr>
+            </div>
+            
+            <div class="hr_div">
+                <hr>
+            </div>
+            
             <div class="dropdown-box">
-                <li><a href="#" class="About2">about us</a></li>
-                <div class="dropdown-box2">
+                <li class="sub_drop"><a href="#" class="About2">about us</a></li>
+            </div>
+            
+            <div class="dropdown-box2">
                     <p class="services2">our services</p>
                     <button class="ico2" href="#"></button> 
-                </div>
             </div>
+            
             <div class="dropdown-arrow">
                 <li><a href="#" class="arrow">Empty</a></li>
                 <li><a href="#" class="arrow2">Empty</a></li>
@@ -646,13 +653,21 @@
             }  
 
             /* The 'JS-code' for drop-down-menu  */
+          function toggleMenu() {
+  const dropdownMenu = document.querySelector('.dropdown-menu');
+  const toggleIcon = document.querySelector('.toggle_icon');
+  const menuItems = document.querySelectorAll('.dropdown-menu .wrap');
+
+dropdownMenu.classList.toggle('active');
+  toggleIcon.classList.toggle('active');
+
+    menuItems.forEach(item => {
+    item.classList.toggle('active');
+  });
+}
 
 
-
-                    function toggleMenu() {
-  document.querySelector('.dropdown-menu').classList.toggle('active');
-  document.querySelector('.toggle_icon').classList.toggle('active');
-};
+             
       function toggleanswer() {
 document.querySelector('.answer').classList.toggle('active');
   document.querySelector('.icon').classList.toggle('active');
