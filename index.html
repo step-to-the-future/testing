@@ -659,6 +659,7 @@
   const menuItems = document.querySelectorAll('.dropdown-menu .wrap');
   const hr_div = document.querySelectorAll('.dropdown-menu .hr_div');
   const dropdownbox = document.querySelectorAll('.sub_drop');
+  const dropdown_box2 = document.querySelectorAll('.dropdown-box2');
 
 dropdownMenu.classList.toggle('active');
   toggleIcon.classList.toggle('active');
@@ -670,6 +671,9 @@ dropdownMenu.classList.toggle('active');
     item.classList.toggle('active');
   });
     dropdownbox.forEach(item => {
+    item.classList.toggle('active');
+  });
+    dropdown_box2.forEach(item => {
     item.classList.toggle('active');
   });
 }
