@@ -657,11 +657,15 @@
   const dropdownMenu = document.querySelector('.dropdown-menu');
   const toggleIcon = document.querySelector('.toggle_icon');
   const menuItems = document.querySelectorAll('.dropdown-menu .wrap');
+  const hr_div = document.querySelectorAll('.dropdown-menu .hr_div');
 
 dropdownMenu.classList.toggle('active');
   toggleIcon.classList.toggle('active');
 
     menuItems.forEach(item => {
+    item.classList.toggle('active');
+  });
+    hr_div.forEach(item => {
     item.classList.toggle('active');
   });
 }
