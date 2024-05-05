@@ -1709,7 +1709,7 @@ span{
        height: 35px;
   }
   .dropdown-box{
-    margin-top: 0;
+    margin-top: 2.5rem;
     margin-left: 15px;
  }
 .dropdown-menu hr{
@@ -1771,6 +1771,11 @@ span{
     width: 150px;
     margin-left: 15px; 
  }
+.dropdown-box2.active{
+  height: 3rem;
+  animation: fade 1.5s ease-in-out;
+  transition: all 1s ease;
+}
 
 
      
@@ -1821,7 +1826,7 @@ header{
      
 }
 .black{
-    height: 75px;
+    height: 80px;
 }
 .navbar{
     display: flex;
