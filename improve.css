@@ -75,21 +75,19 @@ header{
 
 
 /*Container for styles of  the "ICON and LOGO" on the top left corner*/
-.highlight{
-    color:  green;
-    font-weight: bold;
-}
 .highlight-p{
     text-shadow: 2px 2px 2px rgba(0,0,0,0.4);
     margin-left: 5px;
-    font-size: 40px;
+    font-size: 38px;
     color: white;
-    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
 }
 .navbar .icon-container {
     display: flex;
     align-items: center;
     margin-left: 10px;
+    margin-top: 5px;
 }
 .navbar .icon-container img{
      width: 55px;
@@ -99,7 +97,7 @@ header{
 
 /*Class-links  for  "ABOUT US"  outside navbar-menu*/
 .links{
-    margin-left: 42%;
+    margin-left: 30%;
     margin-top: 15px;
     padding-left: 3px;
     padding-right: 3px;
@@ -965,15 +963,10 @@ header{
 
 
     /*Container for styles of  the "ICON and LOGO" on the top left corner*/
-    .highlight{
-        color: green;
-        font-weight: bold;
-    }
     .highlight-p{
-        
-        font-size: 40px;
+        font-size: 30px;
         color: white;
-        font-style: italic;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
     .navbar .icon-container {
         display: flex;
@@ -1835,15 +1828,10 @@ header{
 
 
     /*Container for styles of  the "ICON and LOGO" on the top left corner*/
-    .highlight{
-        color: green;
-        font-weight: bold;
-        font-size: 30px;
-    }
     .highlight-p{        
-        font-size: 27px;
+        font-size: 22px;
         color: white;
-        font-style: italic;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
     }
     .navbar .icon-container {
