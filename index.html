@@ -7,6 +7,7 @@
         content="width=device-width,
         initial-scale=1.0"> 
         <link href="improve.css" rel="stylesheet" type="text/css"> 
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
    </head>
     <body> 
         <div class="transparent">
@@ -97,20 +98,20 @@
 
 
 <div class="HELLO">
-    <p class="the_first">T&M FINANCIAL SOLUTIONS</p>
+    <p class="the_first" data-aos="fade-down" data-aos-duration="900">T&M FINANCIAL SOLUTIONS</p>
 </div>
 
 <!----------------------------------------------------------------------------------------------->
 <div class="tailored">
-    <p class="tap">Tailored accounting services to optimize financial operations for logistic companies.</p>
+    <p class="tap" data-aos="fade-up" data-aos-duration="900">Tailored accounting services to optimize financial operations for logistic companies.</p>
 </div>
 <!----------------------------------------------------------------------------------------------->
 
-<button class="getstarted">Get started</button>
+<button class="getstarted" data-aos="fade-up" data-aos-duration="2000">Get started</button>
 
 
 
-<div class="huge-div">
+<div class="huge-div" data-aos="fade-right">
     <p class="div_title">INTRODUCING T&M,</p>
     <p class="div_description">The premium accounting service for logistics companies. Our multilingual team offers 24/7 support 
         tailored to the industry's unique needs. Get in touch with us today and let us simplify 
@@ -123,7 +124,7 @@
 </div>
 
 
-<div class="text_pic">
+<div class="text_pic" data-aos="fade-up" data-aos-duration="800">
 
     <div class="div_monitor">
     <p class="monitor">
@@ -138,7 +139,7 @@
     
 </div>
 
-<div class="text_reduced">
+<div class="text_reduced" data-aos="fade-up" data-aos-duration="800">
     <img src="coast-removebg.png">
     <div class="div_reduced">
     <p class="reduced">
@@ -155,7 +156,7 @@
 
 
 
-<div class="unique_pic">
+<div class="unique_pic" data-aos="fade-up" data-aos-duration="800">
 
     <div class="div_unique">
     <p class="unique">
@@ -178,7 +179,7 @@
 
 
 
-<div class="main_tariff">
+<div class="main_tariff" data-aos="fade-right" data-aos-duration="800">
 
 <!--PLACE FOR SUB_TARIFF11111___________________---->
 <div class="sub_tariff">
@@ -354,7 +355,7 @@
                                         ---------------
                                         ---------------
 -->
-<div class="Faq">
+<div class="Faq" data-aos="fade-up" data-aos-duration="800">
     <p class="faq">Frequently Asked Questions</p>
     <hr class="faq_hr">
     <div class="div_questions"  onclick="toggleanswer()">
@@ -665,6 +666,11 @@ const toggleBn2 = document.querySelector('.dropdown-box2')
                     });
 
 </script>  
+        
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
         
     </body>
 </html>
