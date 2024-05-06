@@ -341,23 +341,13 @@ header{
 }
 /*CSS STYLES FOR WHY ELEMENT IN THE BODY PART*/
 .why{
-    display: flex;
     text-align: center;
-    justify-content: center;
-    align-items: center;
     margin-top: 150px;
 }
 /*CSS STYLE FOR LETTERS IN WHY ELEMENT*/
-.why p,
-span{
-  font-size: 55px;
+.s1{
   font-weight: bold;
-}
-.why span{
-    color: green;
-}
-.w2{
-    margin-left: 25px;
+  font-size: 80px;
 }
 
 
@@ -1134,25 +1124,14 @@ header{
 
 /*CSS STYLES FOR WHY ELEMENT IN THE BODY PART*/
 .why{
-    display: flex;
     text-align: center;
-    justify-content: center;
-    align-items: center;
     margin-top: 100px;
 }
 /*CSS STYLE FOR LETTERS IN WHY ELEMENT*/
-.why p,
-span{
-  font-size: 45px;
+.s1{
+  font-size: 50px;
   font-weight: bold;
 }
-.why span{
-    color: green;
-}
-.w2{
-    margin-left: 25px;
-}
-
 
 
 .text_pic{
@@ -1888,25 +1867,15 @@ header{
 }
 /*CSS STYLES FOR WHY ELEMENT IN THE BODY PART*/
 .why{
-    display: flex;
     text-align: center;
-    justify-content: center;
-    align-items: center;
     margin-top: 70px;
-    
 }
-/*CSS STYLE FOR LETTERS IN WHY ELEMENT*/
-.why p,
-span{
+.s1{
   font-size: 30px;
   font-weight: bold;
-}
-.why span{
-    color: green;
-}
-.w2{
-    margin-left: 10px;
-}
+}     
+/*CSS STYLE FOR LETTERS IN WHY ELEMENT*/
+
 .text_pic{
     margin-top: 4rem;
     display: flex;
