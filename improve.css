@@ -820,17 +820,12 @@ span{
 
    /*Container for styles of  the "ICON and LOGO" on the top left corner*/
 
-
-    .dropdown-menu .highlight{
-        color:  green;
-        font-weight: bold;
-    }
     .dropdown-menu .highlight-p{
         text-shadow: 2px 2px 2px rgba(0,0,0,0.4);
         margin-left: 5px;
-        font-size: 40px;
+        font-size: 30px;
         color: white;
-        font-style: italic;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
     .dropdown-menu .icon-container {
         display: flex;
@@ -1616,17 +1611,12 @@ span{
         top: 0;
         animation: none; 
      }
-   .dropdown-menu .highlight{
-      color:  green;
-      font-weight: bold;
-      font-size: 30px;
-  }
   .dropdown-menu .highlight-p{
       text-shadow: 2px 2px 2px rgba(0,0,0,0.4);
       margin-left: 5px;
-      font-size: 27px;
+      font-size: 22px;
       color: white;
-      font-style: italic;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
   .dropdown-menu .icon-container {
       display: flex;
