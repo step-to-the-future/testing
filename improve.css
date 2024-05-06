@@ -1832,13 +1832,12 @@ header{
         font-size: 22px;
         color: white;
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
     }
     .navbar .icon-container {
         display: flex;
         align-items: center;
         margin-left: 10px;
-        top: 15px;
+        margin-top: -5px;
     }
     .navbar .icon-container img{
         width: 35px;
