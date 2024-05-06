@@ -268,68 +268,16 @@ header{
 
 /*THE POSITION OF ITEMS INSIDE THE /DIV/ "HELLO" */
 .HELLO{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    margin-top: 200px;
+  text-align: center;
+  margin-top: 200px;
   }
-
-
-  /*STYLE OF SPAN INSIDE THE "HELLO" /DIV/ */
- .p1{
-    font-size: 55px;
-    font-weight: bold;
-    
-}
-.p5{
-  font-size: 55px;
+ .the_first{
+  font-size: 60px;
   font-weight: bold;
-  
-}
-.p6{
-  font-size: 55px;
-  font-weight: bold;
-  color: green;
-  margin-left: 25px;
-}
-.p7{
-  font-size: 55px;
-  font-weight: bold;
-  color: green;
-}
-.p8{
-  font-size: 55px;
-  font-weight: bold;
-  color: green;
-  margin-left: 25px;
-}
-.p9{
-  font-size: 55px;
-  font-weight: bold;
-  color: green;
-}
-
-
-/*STYLE OF "P" INSIDE THE /DIV/ "HELLO" */
-.p2{
-    font-size: 55px;
-    font-weight: bold;
-    color: green;
-  }
-  
-  .p3{
-    font-size: 55px;
-    font-weight: bold;
-  }
-  .p4{
-    font-size: 55px;
-    font-weight: bold;
-  }
-  
-  
-  /*The code for changing "SPAN AND P" on the body part*/
-
+  word-spacing: 15px;
+  color: rgb(32, 30, 30);
+ }
+/*The code for changing "SPAN AND P" on the body part*/
 
 /*The second beginnig of the body part*/
 .tailored{
@@ -1112,27 +1060,16 @@ header{
 
 /*THE POSITION OF ITEMS INSIDE THE /DIV/ "HELLO" */
 .HELLO{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    margin-top: 150px;
+  text-align: center;
+  margin-top: 180px;
   }
+ .the_first{
+  font-size: 35px;
+  font-weight: bold;
+  word-spacing: 15px;
+  color: rgb(32, 30, 30);
+ }
 
-
-  /*STYLE OF SPAN INSIDE THE "HELLO" /DIV/ */
-.HELLO P{
-    font-size: 35px;
-}
-.HELLO span{
-    font-size: 35px;
-}
-.p6{
-    margin-left: 13px;
-}
-.p8{
-    margin-left: 13px;
-}
   
   /*The second beginnig of the body part*/
   .tailored{
@@ -1884,18 +1821,17 @@ header{
 
 
   /*STYLE OF SPAN INSIDE THE "HELLO" /DIV/ */
-.HELLO P{
-    font-size: 21px;
-}
-.HELLO span{
-    font-size: 21px;
-}
-.p6{
-    margin-left: 7px;
-}
-.p8{
-    margin-left: 7px;
-}
+ .HELLO{
+    text-align: center;
+    margin-top: 140px;
+    }
+   .the_first{
+    font-size: 25px;
+    font-weight: bold;
+    word-spacing: 7px;
+    color: rgb(32, 30, 30);
+    line-height: 35px;
+   }
   
   /*The second beginnig of the body part*/
   .tailored{
