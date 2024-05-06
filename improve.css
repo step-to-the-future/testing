@@ -320,8 +320,8 @@ header{
     margin-top: 120px;
     background: linear-gradient( rgb(31, 30, 30), rgb(58, 57, 57));
     height: auto;
-    width: 65%;
-    margin-left: 18%;
+    width: 80%;
+    margin-left: 11%;
     border-left: 4px solid green;
     border-right: 4px solid green;
     border-radius: 20px;
@@ -330,12 +330,12 @@ header{
 }
 .div_title{
     color: white;
-    font-size: 40px;
+    font-size: 45px;
     font-weight: bold;
 }
 .div_description{
     color: white;
-    font-size: 26px;
+    font-size: 35px;
     margin-top: 15px;
     line-height: 1.4;
 }
@@ -448,21 +448,12 @@ header{
 
 /*PLACE FOR DIV-TARIFFS STYLES*/
 .div_tariff{
-    display: flex;
     text-align: center;
-    justify-content: center;
-    align-items: center;
     margin-top: 200px;
 }
 .tariff{
     font-size: 55px;
     font-weight: bold; 
-    color: green;
-}
-.div_tariff span{
-    color: rgb(66, 62, 62);
-    font-size: 55px;
-    font-weight: bold;
 }
 .tar_hr{
     
@@ -1226,21 +1217,12 @@ header{
 
 /*PLACE FOR DIV-TARIFFS STYLES*/
 .div_tariff{
-    display: flex;
     text-align: center;
-    justify-content: center;
-    align-items: center;
     margin-top: 200px;
 }
 .tariff{
     font-size: 45px;
     font-weight: bold; 
-    color: green;
-}
-.div_tariff span{
-    color: rgb(66, 62, 62);
-    font-size: 45px;
-    font-weight: bold;
 }
 .tar_hr{
     
@@ -1979,21 +1961,12 @@ header{
 
 /*PLACE FOR DIV-TARIFFS STYLES*/
 .div_tariff{
-    display: flex;
     text-align: center;
-    justify-content: center;
-    align-items: center;
     margin-top: 100px;
 }
 .tariff{
     font-size: 30px;
     font-weight: bold; 
-    color: green;
-}
-.div_tariff span{
-    color: rgb(66, 62, 62);
-    font-size: 30px;
-    font-weight: bold;
 }
 .tar_hr{
     
