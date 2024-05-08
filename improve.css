@@ -209,6 +209,10 @@ header{
     text-shadow: 2px 2px 2px rgba(0,0,0,0.1);
     border: 1px solid green;
  }
+ .start_button a{
+  text-decoration: none;
+  color: white;
+ }
  .start_button:hover{
     scale: 1.02;
  }
@@ -301,6 +305,10 @@ header{
     background-color: rgb(31, 30, 30);
     font-weight: bold;
     box-shadow: 0px 4px 6px rgba(0,0,0,0.6);
+}
+.getstarted a{
+  text-decoration: none;
+  color: white;
 }
 .getstarted:hover{
     border-bottom: 5px solid green;
