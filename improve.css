@@ -98,7 +98,7 @@ header{
 .About{
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 23px;
     padding: 10px 5px;
 }
 
@@ -197,7 +197,7 @@ header{
 /*THE POSITION OF ITEMS INSIDE THE /DIV/ "HELLO" */
 .HELLO{
   text-align: center;
-  margin-top: 200px;
+  margin-top: 150px;
   }
  .the_first{
   font-size: 70px;
@@ -970,10 +970,10 @@ header{
 /*THE POSITION OF ITEMS INSIDE THE /DIV/ "HELLO" */
 .HELLO{
   text-align: center;
-  margin-top: 180px;
+  margin-top: 150px;
   }
  .the_first{
-  font-size: 35px;
+  font-size: 50px;
   font-weight: bold;
   word-spacing: 15px;
   color: rgb(32, 30, 30);
@@ -1761,7 +1761,7 @@ header{
 }
 .div_description{
     color: white;
-    font-size: 14px;
+    font-size: 16px;
     margin-top: 8px;
     line-height: 1.5;
 }
