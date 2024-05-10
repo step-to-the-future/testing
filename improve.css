@@ -746,8 +746,8 @@ header{
         margin-top: 15px;
     }
     .dropdown-menu .icon-container img{
-         width: 55px;
-         height: 55px;
+         width: 65px;
+         height: 52px;
     }
     
 
@@ -807,7 +807,7 @@ header{
     top: 0;
     left: 0;
     right: 0;
-    background-color:  rgb(31, 30, 30);
+    background-color:  rgb(77, 77, 88);
     padding-top: 15px;
     height: 70px;
 }
@@ -828,6 +828,10 @@ header{
         align-items: center;
         margin-left: 10px;
         margin-top: -8px;
+    }
+    .navbar .icon-container img{
+      width: 65px;
+      height: 52px;      
     }
  
 
@@ -1512,12 +1516,12 @@ header{
   .dropdown-menu .icon-container {
       display: flex;
       align-items: center;
-      margin-left: 10px;
+      margin-left: 7px;
       margin-top: 18px;
   }
   .dropdown-menu .icon-container img{
-       width: 35px;
-       height: 35px;
+    width: 40px;
+    height: 30px;
   }
   .dropdown-box{
     margin-top: 2.5rem;
@@ -1631,7 +1635,7 @@ header{
     top: 0;
     left: 0;
     right: 0;
-    background-color:  rgb(31, 30, 30);
+    background-color: rgb(77, 77, 88);
     height: 50px; 
     z-index: 98; 
      
@@ -1651,12 +1655,12 @@ header{
     .navbar .icon-container {
         display: flex;
         align-items: center;
-        margin-left: 10px;
+        margin-left: 7px;
         margin-top: -5px;
     }
     .navbar .icon-container img{
-        width: 35px;
-        height: 35px;
+        width: 40px;
+        height: 30px;
    }
    .toggle_icon{
     position: fixed;
