@@ -1695,10 +1695,10 @@ header{
   /*STYLE OF SPAN INSIDE THE "HELLO" /DIV/ */
    .HELLO{
     text-align: center;
-    margin-top: 30px;
+    margin-top: 75px;
     }
    .the_first{
-    font-size: 32px;
+    font-size: 30px;
     font-weight: bold;
     word-spacing: 7px;
     color: rgb(32, 30, 30);
