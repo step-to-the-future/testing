@@ -24,19 +24,6 @@
                    <ul class="links">
                     <li><a href="#" class="About">about us</a></li>
                    </ul>
-
-
-                   <div class="our-service">
-                    <li><a href="#" class="services">our services</a>
-                        <button class="ico" href="#"></button>
-                        <ul>
-                            <li><a href="#" class="empty">Empty</a></li>
-                            <li><a href="#" class="empty2">Empty</a></li>
-                            <li><a href="#" class="empty3">Empty</a></li>
-                        </ul>
-                    </li>
-    
-                   </div>
                    
 
 
@@ -455,7 +442,6 @@
         const langButtons = document.querySelectorAll('.lang-button');
         const AboutEl = document.querySelector('.About');
         const About2El = document.querySelector('.About2');
-        const servicesEl = document.querySelector('.services');
         const startEl = document.querySelector('.start_button');
         const emptyEl = document.querySelector('.empty');
         const empty2El = document.querySelector('.empty2');
@@ -492,7 +478,6 @@
                     const selectedLang = button.getAttribute('data-lang');
                     AboutEl.textContent = data[selectedLang].About;
                     About2El.textContent = data[selectedLang].About2;
-                    servicesEl.textContent = data[selectedLang].services;
                     emptyEl.textContent = data[selectedLang].empty;
                     empty2El.textContent = data[selectedLang].empty2;
                     empty3El.textContent = data[selectedLang].empty3;
@@ -531,7 +516,6 @@
                 "english":
                 {
                     "About": "about us",
-                    "services": "our services",
                     "start_button": "Contact us",
                     "About2" : "about us",
                     "services2" : "our services",
@@ -568,7 +552,6 @@
                 "russian":
                 {
                     "About": "о нас",
-                    "services": "наши услуги",
                     "start_button": "Связаться",
                     "About2" : "о нас",
                     "services2" : "наши услуги",
