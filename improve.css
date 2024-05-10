@@ -1818,7 +1818,7 @@ header{
     width: auto;
     padding-left: 30px;
     padding-right: 25px;
-    margin-top: 2rem;
+    margin-top: 5rem;
  }     
  .div_reduced{
     width: auto;
@@ -1848,7 +1848,7 @@ header{
     margin-left: 0;
     width: auto;
     padding-right: 25px;
-    margin-top: 3rem;
+    margin-top: 5rem;
     flex-direction: column;
  }
  .div_unique{
