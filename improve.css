@@ -393,7 +393,7 @@ header{
     
     height: 15px;
     border-radius: 15px;
-    background: linear-gradient(rgb(48, 121, 58), rgb(230, 178, 83));
+    background: rgb(8, 3, 37);
     width: 16rem;
     margin-left: 41%;
 }
@@ -402,7 +402,7 @@ header{
 /*              "MAIN TARIFF DIV" PLACE FOR THE WHOLE TARIFF  */
 .main_tariff{
     display: flex;
-    
+    justify-content: center;
     gap: 4rem;
     margin-top: 5rem;
 }
@@ -431,7 +431,6 @@ header{
     border: 1px solid rgb(231, 231, 200);
     width: 340px;
     height: 573px;
-    margin-left: 7rem;
     border-radius: 20px;
     background-color: rgb(59, 59, 55);
     box-shadow: 0px 4px 6px rgba(0,0,0,0.9);
