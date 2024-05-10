@@ -249,12 +249,10 @@ header{
 
 .huge-div{
     margin-top: 120px;
-    background: linear-gradient( rgb(31, 30, 30), rgb(58, 57, 57));
+    background: rgb(8, 3, 37);
     height: auto;
     width: 80%;
     margin-left: 11%;
-    border-left: 4px solid green;
-    border-right: 4px solid green;
     border-radius: 20px;
     padding: 25px;
     box-shadow: 0px 4px 6px rgba(0,0,0,0.7);
@@ -1021,19 +1019,17 @@ header{
 
 .huge-div{
     margin-top: 120px;
-    background: linear-gradient( rgb(31, 30, 30), rgb(58, 57, 57));
+    background: rgb(8, 3, 37);
     height: auto;
     width: 83%;
     margin-left: 10%;
-    border-left: 4px solid green;
-    border-right: 4px solid green;
     border-radius: 20px;
     padding: 25px;
     box-shadow: 0px 4px 6px rgba(0,0,0,0.7);
 }
 .div_title{
     color: white;
-    font-size: 30px;
+    font-size: 32px;
     font-weight: bold;
 }
 .div_description{
@@ -1750,24 +1746,22 @@ header{
 
 .huge-div{
     margin-top: 100px;
-    background: linear-gradient( rgb(31, 30, 30), rgb(58, 57, 57));
+    background: rgb(8, 3, 37);
     height: auto;
     width: 100%;
     margin-left: 0;
-    border-left: 4px solid green;
-    border-right: 4px solid green;
     border-radius: 20px;
     padding: 10px;
     box-shadow: 0px 4px 6px rgba(0,0,0,0.7);
 }
 .div_title{
     color: white;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
 }
 .div_description{
     color: white;
-    font-size: 12.5px;
+    font-size: 14px;
     margin-top: 8px;
     line-height: 1.5;
 }
