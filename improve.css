@@ -1636,9 +1636,6 @@ header{
     z-index: 98; 
      
 }
-.black{
-    height: 80px;
-}
 .navbar{
     display: flex;
     align-items: center;
@@ -1692,19 +1689,13 @@ header{
     translate(1px, -1px) 
   }
   /*THE POSITION OF ITEMS INSIDE THE /DIV/ "HELLO" */
-.HELLO{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    margin-top: 140px;  
-  }
+
 
 
   /*STYLE OF SPAN INSIDE THE "HELLO" /DIV/ */
- .HELLO{
+   .HELLO{
     text-align: center;
-    margin-top: 140px;
+    margin-top: 30px;
     }
    .the_first{
     font-size: 25px;
