@@ -1808,7 +1808,7 @@ header{
     color: rgb(63, 60, 60);
 }
 .text_pic img{
-    margin-right: 0.5rem;
+    margin-left: 1rem;
     width: 80%;
 }
 
@@ -1838,8 +1838,8 @@ header{
     color: rgb(63, 60, 60);
  }
  .text_reduced img{
-    width: 65%;
-    margin-left: 3rem;
+    width: 75%;
+    margin-left: 2rem;
  }  
 
  .unique_pic{
@@ -1872,7 +1872,7 @@ header{
     color: rgb(63, 60, 60);
  }
  .unique_pic img{
-    margin-right: 5px;
+    margin-left: 40px;
     width: 60%;
     height: 14rem;
  }
