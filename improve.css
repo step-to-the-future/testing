@@ -136,7 +136,7 @@ header{
     color: white;
     font-size: 18px;
     text-shadow: 2px 2px 2px rgba(0,0,0,0.1);
-    border: 1px solid green;
+    border: 1px solid white;
  }
  .start_button a{
   text-decoration: none;
@@ -200,7 +200,7 @@ header{
   margin-top: 200px;
   }
  .the_first{
-  font-size: 60px;
+  font-size: 70px;
   font-weight: bold;
   word-spacing: 15px;
   color: rgb(32, 30, 30);
