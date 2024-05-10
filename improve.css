@@ -1520,8 +1520,8 @@ header{
       margin-top: 18px;
   }
   .dropdown-menu .icon-container img{
-    width: 40px;
-    height: 30px;
+    width: 45px;
+    height: 35px;
   }
   .dropdown-box{
     margin-top: 2.5rem;
@@ -1656,11 +1656,11 @@ header{
         display: flex;
         align-items: center;
         margin-left: 7px;
-        margin-top: -5px;
+        margin-top: -8px;
     }
     .navbar .icon-container img{
-        width: 40px;
-        height: 30px;
+        width: 45px;
+        height: 35px;
    }
    .toggle_icon{
     position: fixed;
@@ -1699,7 +1699,7 @@ header{
   /*STYLE OF SPAN INSIDE THE "HELLO" /DIV/ */
    .HELLO{
     text-align: center;
-    margin-top: 100px;
+    margin-top: 150px;
     }
    .the_first{
     font-size: 30px;
