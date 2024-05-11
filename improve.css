@@ -389,13 +389,17 @@ header{
     font-size: 55px;
     font-weight: bold; 
 }
+.center{
+display: flex;
+justify-content: center;
+align-items: center;
+}
 .tar_hr{
     
     height: 15px;
     border-radius: 15px;
     background: rgb(8, 3, 37);
     width: 16rem;
-    margin-left: 41%;
 }
 
 
@@ -1169,7 +1173,6 @@ header{
     border-radius: 15px;
     background: rgb(8, 3, 37);
     width: 13rem;
-    margin-left: 35%;
 }
 
 .main_tariff{
@@ -1909,7 +1912,6 @@ header{
     border-radius: 15px;
     background:  rgb(8, 3, 37);
     width: 10rem;
-    margin-left: 30%;
 }
 
 .main_tariff{
