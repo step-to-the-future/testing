@@ -456,7 +456,7 @@ align-items: center;
     padding: 0.5rem 1rem;
     cursor: pointer;
     color: black;
-    background-color: rgb(241, 237, 237);
+    background-color: white;
     font-weight: bold;
     font-size: 17px;
     box-shadow: 0px 4px 6px rgba(0,0,0,0.6);
@@ -492,7 +492,7 @@ align-items: center;
     cursor: pointer;
     border-radius: 8px;
     color: black;
-    background-color: rgb(241, 237, 237);
+    background-color: white;
     font-weight: bold;
     font-size: 17px;
     box-shadow: 0px 4px 6px rgba(0,0,0,0.6);
@@ -566,7 +566,7 @@ align-items: center;
     padding: 0.5rem 1rem;
     cursor: pointer;
     color: black;
-    background-color: rgb(241, 237, 237);
+    background-color: white;
     font-weight: bold;
     font-size: 17px;
     box-shadow: 0px 4px 6px rgba(0,0,0,0.6);
@@ -1965,7 +1965,7 @@ header{
     padding: 0.5rem 1rem;
     cursor: pointer;
     color: black;
-    background-color: rgb(241, 237, 237);
+    background-color: white;
     font-weight: bold;
     font-size: 15px;
 }
@@ -2000,7 +2000,7 @@ header{
     padding: 0.5rem 1rem;
     cursor: pointer;
     color: black;
-    background-color: rgb(241, 237, 237);
+    background-color: white;
     font-weight: bold;
     font-size: 15px;
 }
@@ -2072,7 +2072,7 @@ header{
     padding: 0.5rem 1rem;
     cursor: pointer;
     color: black;
-    background-color: rgb(241, 237, 237);
+    background-color: white;
     font-weight: bold;
     font-size: 15px;
 }
