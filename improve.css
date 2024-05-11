@@ -1775,8 +1775,8 @@ header{
     margin-top: 4rem;
     display: flex;
     align-items: center;
-    padding-right: 20px;
-    padding-right: 20px;
+    padding-right: 0;
+    padding-right: 0;
     margin-left: 0;
     height: auto;
     flex-direction: column;
@@ -1789,16 +1789,16 @@ header{
     order: 2;
 }
 .monitor{
-    font-size: 23px;
+    font-size: 24px;
     font-weight: bold;
     width: auto;
 }
 .sub_monitor{
-    font-size: 19px;
+    font-size: 20px;
     width: auto;
     margin-top: 8px;
     font-weight: bold;
-    color: rgb(63, 60, 60);
+    color: rgb(128, 126, 126);
 }
 .text_pic img{
     margin-left: 1rem;
