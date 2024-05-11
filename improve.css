@@ -531,9 +531,12 @@ header{
 }
 
 /*SECOND TARIFF ADDITIONAL SERVICES */
+.addi_sub{
+  display: flex;
+  justify-content: center; 
+}
 .second_tariff{
     margin-top: -8rem;
-    margin-left: 32.5rem;
     background-color: rgb(59, 59, 55);
     width: 340px;
     border-radius: 20px;
@@ -1297,7 +1300,6 @@ header{
 /*SECOND TARIFF ADDITIONAL SERVICES */
 .second_tariff{
     margin-top: 4rem;
-    margin-left: 10rem;
     background-color: rgb(59, 59, 55);
     width: 340px;
     border-radius: 20px;
@@ -2032,7 +2034,6 @@ header{
 /*SECOND TARIFF ADDITIONAL SERVICES */
 .second_tariff{
     margin-top: 4rem;
-    margin-left: 1.5rem;
     background-color: rgb(59, 59, 55);
     width: 290px;
     border-radius: 20px;
