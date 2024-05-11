@@ -1782,18 +1782,19 @@ header{
     flex-direction: column;
 }
 .div_monitor{
-    width: auto;   
+    width: auto;
+    text-align: center;
 }
 .div_monitor:first-child{
     order: 2;
 }
 .monitor{
-    font-size: 19px;
+    font-size: 23px;
     font-weight: bold;
     width: auto;
 }
 .sub_monitor{
-    font-size: 15px;
+    font-size: 19px;
     width: auto;
     margin-top: 8px;
     font-weight: bold;
