@@ -1746,7 +1746,7 @@ header{
     width: 100%;
     margin-left: 0;
     border-radius: 45px;
-    padding: 10px 5px;
+    padding: 17px 5px;
     box-shadow: 0px 4px 6px rgba(0,0,0,0.7);
 }
 .div_title{
@@ -1765,7 +1765,7 @@ header{
 /*CSS STYLES FOR WHY ELEMENT IN THE BODY PART*/
 .why{
     text-align: center;
-    margin-top: 70px;
+    margin-top: 100px;
 }
 .s1{
   font-size: 50px;
