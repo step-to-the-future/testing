@@ -1758,50 +1758,43 @@ header{
     margin-top: 2.5rem;
     margin-left: 15px;
  }
-.dropdown-menu hr{
-  margin-top: 5px;
-  background-color: green;
-  width: 105px;
-  height: 5px;
-  border-radius: 15px;
-  border: none;
-  margin-left: 15px;
-}
-.dropdown-menu .wrap .lang-button{
-    display: flex;
-    margin-top: 20px;
-    display: block;
-}
-.dropdown-menu .lang-button{
-    font-size: 15px;
-    background-color: rgba(0,0,0,0);
+
+
+  .language-arrow{
     border: none;
-    color: rgb(175, 175, 133);
+    border-radius: 15px;
+    padding: 8px 8px;
     cursor: pointer;
-    font-style: oblique;
-    width: 50px
- }
-     
+    margin-left: 1.5rem;
+    margin-top: 50px;
+    font-size: 18px;
+   }
+
+  .dropdown-menu .dwrap{
+    margin-top: 20px;
+    visibility: hidden;
+    transition: height .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    overflow-x: hidden;
+    margin-left: 1.5rem;
+    height: 0;
+  }
+  .dropdown-menu .dwrap img{
+    width: 40px;
+    height: 40px;
+  }
+  .en_button{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .dropdown-menu .dwrap.active{
+    visibility: visible;
+    height: 6rem;
+    animation: fade 1s ease-in-out;
+    margin-bottom: 25px;
+  }
 
      
- .dropdown-menu .wrap{
-    margin-left: 15px;
-    gap: 10px;
-    height: 0; 
-}
-.dropdown-menu .wrap.active{
-  height: 3rem;
-  animation: fade 1.5s ease-in-out;
-  transition: all 1s ease;
-}    
-.dropdown-menu .hr_div{
-  height: 0;
-}
-.dropdown-menu .hr_div.active{
-  height: 4rem;
-  animation: fade 1.5s ease-in-out;
-  transition: all 1s ease;
-}
 .sub_drop{
   height: 0;
 }
