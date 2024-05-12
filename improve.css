@@ -634,7 +634,7 @@ align-items: center;
     transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   }
   .answer.active{
-    height: 6rem;
+    height: 7.5rem;
     margin-top: 0.5rem;
     animation: fade 1s ease-in-out;
   }
@@ -668,7 +668,7 @@ align-items: center;
     transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   }
   .answer2.active{
-    height: 7.5rem;
+    height: 9rem;
     margin-top: 0.5rem;
     animation: fade 1s ease-in-out;
   }
@@ -696,7 +696,7 @@ align-items: center;
     transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   }
   .answer3.active{
-    height: 4.5rem;
+    height: 6rem;
     margin-top: 0.5rem;
     animation: fade 1s ease-in-out;
   }
