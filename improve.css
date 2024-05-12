@@ -746,10 +746,11 @@ align-items: center;
     color: white;
     font-size: 40px;
     font-weight: bold;
+    margin-left: 10px;
   }
   .logo img{
     width: 60px;
-    height: 60px;
+    height: 50px;
   }
 
   .word_price{
@@ -1615,10 +1616,11 @@ header{
     color: white;
     font-size: 40px;
     font-weight: bold;
+    margin-left: 10px;
   }
   .logo img{
     width: 60px;
-    height: 60px;
+    height: 50px;
   }
 
   .word_price{
@@ -2471,7 +2473,7 @@ header{
   }
   .logo img{
     width: 45px;
-    height: 45px;
+    height: 38px;
   }
 
   .word_price{
