@@ -2096,7 +2096,7 @@ header{
 */
 .Faq{
     margin-top: 12rem;
-    background: linear-gradient(rgb(58, 57, 57), rgb(31, 30, 30) );
+    background: rgb(8, 3, 37);
     border-radius: 20px;
     padding: 10px 13px;
     width: auto;
@@ -2108,23 +2108,12 @@ header{
     font-size: 1.3rem;
     margin-bottom: 10px;
   }
-  .faq_hr{
-    margin-top: 0;
-    height: 7px;
-    border: none;
-    background-color: blueviolet;
-    width: 103%;
-    border-radius: 10px;
-    margin-left: -7px;
-    margin-bottom: 20px;
-  }
   
   
   
   .div_questions{
     margin-top: 0;  
-    padding: 15px 0;
-    border-bottom: 2px solid green;
+    padding: 15px 7px;
     cursor: pointer;
   }
   .question{
@@ -2133,7 +2122,7 @@ header{
   .question p{
     font-size: 14px;
     font-weight: bold;
-    color: rgb(190, 165, 212);
+    color: black;
     width: 80%;
     line-height: 1.3rem;
   }
@@ -2151,16 +2140,24 @@ header{
     transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   }
   .answer.active{
-    height: 12rem;
-    margin-top: 0.5rem;
+    height: 13rem;
+    margin-top: 10px;
     animation: fade 1s ease-in-out;
   }
   .answer p{
-     color: white;
-     font-size: 16px;
+     color: black;
+     font-size: 15px;
      font-weight: normal;
-     width: 95%;
+     width: 100%;
      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .details{
+    background-color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    color: blue;
+    font-size: 15px;
+    font-weight: bold;
   }
   .icon.active{
     transform: rotate(180deg);
@@ -2176,10 +2173,10 @@ header{
     transition: transform 0.5s ease;
   }
   .answer2 p{
-    color: white;
-    font-size: 16px;
+    color: black;
+    font-size: 15px;
     font-weight: normal;
-    width: 90%;
+    width: 100%;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   .answer2{
@@ -2188,8 +2185,8 @@ header{
     transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   }
   .answer2.active{
-    height: 15rem;
-    margin-top: 0;
+    height: 14rem;
+    margin-top: 10px;
     animation: fade 1s ease-in-out;
   }
   .icon2.active{
@@ -2206,8 +2203,8 @@ header{
     transition: transform 0.5s ease;
   }
   .answer3 p{
-    color: white;
-    font-size: 16px;
+    color: black;
+    font-size: 15px;
     font-weight: normal;
     width: 95%;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
