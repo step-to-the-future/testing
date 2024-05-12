@@ -94,7 +94,7 @@
 </div>
 <!----------------------------------------------------------------------------------------------->
 <div class="button_start">
-<a href="https://step-to-the-future.github.io/wander/" class="getstarted" data-aos="fade-up" data-aos-duration="2000">Get started</a>
+<a href="https://step-to-the-future.github.io/wander/" onclick="buttonClicked()" class="getstarted" data-aos="fade-up" data-aos-duration="2000">Get started</a>
 </div>
 
 
@@ -578,6 +578,15 @@
                 }
             }  
 
+
+           function buttonClicked() {
+  var button = document.querySelector('.getstarted');
+  button.classList.add('clicked'); // Добавляем класс 'clicked' после нажатия
+  setTimeout(function(){
+    button.classList.remove('clicked'); 
+  }, 500);
+}
+    
             /* The 'JS-code' for drop-down-menu  */
           function toggleMenu() {
   const dropdownMenu = document.querySelector('.dropdown-menu');
