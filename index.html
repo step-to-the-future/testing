@@ -56,10 +56,10 @@
                 <p class="highlight-p">T&M FINANCIALS</p>
                 </div>
 
-
-            <div class="wrap">
-                <button data-lang="english" class="lang-button">EN</button>
-                <button data-lang="russian" class="lang-button">RU</button>
+<button class="language-arrow" style="color: black;" onclick="togglelanguage5()">Language</button>
+            <div class="dwrap">
+<div  class="en_button"><img src="usa.svg"> <button data-lang="english" class="lang-button">EN</button></div>
+<div  class="en_button"><img src="rus.svg"> <button data-lang="russian" class="lang-button">RU</button></div>
             </div>
             
             <div class="hr_div">
@@ -628,7 +628,10 @@ document.querySelector('.answer3').classList.toggle('active');
 document.querySelector('.icon3').classList.toggle('active');
 };
 
-    
+function togglelanguage5(){
+    document.querySelector('.dwrap').classList.toggle('active');  
+}
+   
 /* The js code for "dropdown-arrow2 to open the window with the list"*/
 const toggleBn2 = document.querySelector('.dropdown-box2')
             const toggleBtnico2 = document.querySelector('.dropdown-box2 i')
