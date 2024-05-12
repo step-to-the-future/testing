@@ -969,37 +969,40 @@ header{
     display: none;
 
   }
-  
-  .dropdown-menu hr{
-    margin-top: 5px;
-    background-color: green;
-    width: 105px;
-    height: 5px;
-    border-radius: 15px;
-    border: none;
-    margin-left: 35px;
-}
-.dropdown-menu .wrap{
-    margin-left: 31px;
-    gap: 10px;
-}
-.dropdown-menu .wrap .lang-button{
-    display: flex;
-    margin-top: 75px;
-    display: block;
-}
-.dropdown-menu .lang-button{
-    font-size: 15px;
-    background-color: rgba(0,0,0,0);
-    border: none;
-    color: rgb(175, 175, 133);
-    cursor: pointer;
-    font-style: oblique;
-    width: 50px
+
+
+ .language-arrow{
+  border: none;
+  border-radius: 15px;
+  padding: 8px 8px;
+  cursor: pointer;
+  margin-left: 4rem;
+  margin-top: 50px;
  }
- .dropdown-menu .lang-button:hover{
-    color: green;
- }
+.dropdown-menu .dwrap{
+  margin-top: 20px;
+  visibility: hidden;
+  transition: height .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  overflow-x: hidden;
+  margin-left: 4rem;
+  height: 0;
+}
+.dropdown-menu .dwrap img{
+  width: 40px;
+  height: 40px;
+}
+.en_button{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.dropdown-menu .dwrap.active{
+  visibility: visible;
+  height: 6rem;
+  animation: fade 1s ease-in-out;
+}
+
+     
  .dropdown-box{
     margin-top: 4rem;
     margin-left: 25px;
