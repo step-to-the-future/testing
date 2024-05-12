@@ -2106,7 +2106,7 @@ header{
     color: white;
     font-weight: bold;
     font-size: 1.3rem;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
   }
   
   
@@ -2140,7 +2140,7 @@ header{
     transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   }
   .answer.active{
-    height: 13rem;
+    height: 12rem;
     margin-top: 10px;
     animation: fade 1s ease-in-out;
   }
@@ -2185,7 +2185,7 @@ header{
     transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   }
   .answer2.active{
-    height: 14rem;
+    height: 13rem;
     margin-top: 10px;
     animation: fade 1s ease-in-out;
   }
@@ -2215,7 +2215,7 @@ header{
     transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   }
   .answer3.active{
-    height: 9rem;
+    height: 8rem;
     margin-top: 0;
     animation: fade 1s ease-in-out;
   }
