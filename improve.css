@@ -634,8 +634,8 @@ align-items: center;
     transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   }
   .answer.active{
-    height: 7.5rem;
-    margin-top: 0.5rem;
+    height: 8rem;
+    margin-top: 2.5rem;
     animation: fade 1s ease-in-out;
   }
   .answer p{
@@ -643,6 +643,16 @@ align-items: center;
      font-size: 20px;
      font-weight: bold;
      width: 90%;
+      margin-bottom: 25px;
+  }
+.details{
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px 8px;
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
   }
   .icon.active{
     transform: rotate(180deg);
@@ -669,7 +679,7 @@ align-items: center;
   }
   .answer2.active{
     height: 9rem;
-    margin-top: 0.5rem;
+    margin-top: 2.5rem;
     animation: fade 1s ease-in-out;
   }
   .icon2.active{
@@ -697,7 +707,7 @@ align-items: center;
   }
   .answer3.active{
     height: 6rem;
-    margin-top: 0.5rem;
+    margin-top: 2.5rem;
     animation: fade 1s ease-in-out;
   }
   .icon3.active{
