@@ -717,6 +717,119 @@ align-items: center;
     margin-bottom: 15px;
   }
 
+
+
+  .main_div{
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      background: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .price_list{
+    height: 500px;
+    width: 700px;
+    background-color: rgb(71, 70, 70);
+    border-radius: 20px;
+  }
+
+
+  .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .logo p{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .logo img{
+    width: 60px;
+    height: 60px;
+  }
+
+  .word_price{
+    color: white;
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  .main_blank{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .blank{
+    margin-top: 2rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 200px;
+    width: 600px;
+    display: flex;
+  }
+  .right_name{
+    width: 300px;
+    height: 199px;
+    border-right: 1px solid white;
+    padding-left: 0;
+    padding-top: 15px;
+    
+  }
+  .right_name p{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+   .p{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .left_name{
+    width: 300px;
+    height: 199px;
+    border-right: 1px solid white;
+    padding-left: 0;
+    padding-top: 15px;
+    
+  }
+
+  .left_name p{
+    font-size: 25px;
+  
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .l{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
 @keyframes fade {
     from{
       opacity: 0;
@@ -735,7 +848,7 @@ align-items: center;
  
 
 
- @media(max-width: 1300px){
+ @media(max-width: 1350px){
     .navbar .links,
     .navbar .our-service,
     .navbar .start_button{
@@ -1483,6 +1596,110 @@ header{
     margin-bottom: 15px;
   }
 
+
+.price_list{
+    height: 500px;
+    width: 600px;
+    background-color: rgb(71, 70, 70);
+    border-radius: 20px;
+  }
+
+
+  .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .logo p{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .logo img{
+    width: 60px;
+    height: 60px;
+  }
+
+  .word_price{
+    color: white;
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  .main_blank{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .blank{
+    margin-top: 2rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 200px;
+    width: 500px;
+    display: flex;
+  }
+  .right_name{
+    width: 300px;
+    height: 199px;
+    border-right: 1px solid white;
+    padding-left: 0;
+    padding-top: 15px;
+    
+  }
+  .right_name p{
+    font-size: 23px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+   .p{
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .left_name{
+    width: 300px;
+    height: 199px;
+    border-right: 1px solid white;
+    padding-left: 0;
+    padding-top: 15px;
+    
+  }
+
+  .left_name p{
+    font-size: 23px;
+  
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .l{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+     
 @keyframes fade {
     from{
       opacity: 0;
@@ -2225,7 +2442,113 @@ header{
   .bottom{
     margin-bottom: 15px;
   }
+
+
+     
+  .price_list{
+    height: 500px;
+    width: 350px;
+    background-color: rgb(71, 70, 70);
+    border-radius: 20px;
+  }
+
+
+  .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .logo p{
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  .logo img{
+    width: 45px;
+    height: 45px;
+  }
+
+  .word_price{
+    color: white;
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .main_blank{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .blank{
+    margin-top: 2rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 200px;
+    width: 320px;
+    display: flex;
+  }
+  .right_name{
+    width: 300px;
+    height: 199px;
+    border-right: 1px solid white;
+    padding-left: 0;
+    padding-top: 15px;
+    
+  }
+  .right_name p{
+    font-size: 23px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+   .p{
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .left_name{
+    width: 300px;
+    height: 199px;
+    border-right: 1px solid white;
+    padding-left: 0;
+    padding-top: 15px;
+    
+  }
+
+  .left_name p{
+    font-size: 23px;
   
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .l{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+     
 @keyframes fade {
     from{
       opacity: 0;
