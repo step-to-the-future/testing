@@ -1968,8 +1968,11 @@ header{
       font-weight: bold;
       box-shadow: 0px 4px 6px rgba(0,0,0,0.6);
   }
+  .getstarted:hover{
+    color: none;
+    background-color: none;
+  }   
   .getstarted.clicked{
-      color: black;
       background-color: rgb(165, 159, 159);
   }
   
