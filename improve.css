@@ -1355,7 +1355,7 @@ header{
 */
 .Faq{
     margin-top: 12rem;
-    background: linear-gradient(rgb(58, 57, 57), rgb(31, 30, 30) );
+    background: rgb(8, 3, 37);
     border-radius: 20px;
     padding: 10px 30px;
     width: 85%;
@@ -1366,24 +1366,12 @@ header{
     font-weight: bold;
     font-size: 1.8rem;
     margin-bottom: 10px;
-  }
-  .faq_hr{
-    margin-top: 0;
-    height: 10px;
-    border: none;
-    background-color: blueviolet;
-    width: 72%;
-    border-radius: 10px;
-    margin-left: -10px;
-    margin-bottom: 20px;
-  }
-  
-  
+  }  
   
   .div_questions{
     margin-top: 0;  
     padding: 15px 20px;
-    border-bottom: 2px solid green;
+    margin-bottom: 20px;
     cursor: pointer;
   }
   .question{
@@ -1392,7 +1380,7 @@ header{
   .question p{
     font-size: 1.1rem;
     font-weight: bold;
-    color: rgb(190, 165, 212);
+    color: black;
     width: 80%;
   }
   .icon{
@@ -1407,16 +1395,29 @@ header{
     transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   }
   .answer.active{
-    height: 11rem;
-    animation: fade 1s ease-in-out;  
+    height: 14rem;
+    animation: fade 1s ease-in-out;
+    margin-top: 1.5rem;
   }
   .answer p{
      padding-top: 0.2rem;
-     color: white;
+     color: black;
      font-size: 17px;
      font-weight: bold;
      width: 95%;
+     margin-bottom: 15px;
   }
+     
+  .details{
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px 8px;
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+  }
+     
   .icon.active{
     transform: rotate(180deg);
   }
@@ -1431,7 +1432,7 @@ header{
   }
   .answer2 p{
     padding-top: 0.8rem;
-    color: white;
+    color: black;
     font-size: 17px;
     font-weight: bold;
     width: auto;
@@ -1444,6 +1445,7 @@ header{
   .answer2.active{
     height: 12rem;
     animation: fade 1s ease-in-out;  
+    margin-top: 1.5rem;
   }
   .icon2.active{
     transform: rotate(180deg);
@@ -1459,7 +1461,7 @@ header{
   }
   .answer3 p{
     padding-top: 0.8rem;
-    color: white;
+    color: black;
     font-size: 17px;
     font-weight: bold;
     width: 90%;
@@ -1470,8 +1472,9 @@ header{
     transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   }
   .answer3.active{
-    height: 8rem;
-    animation: fade 1s ease-in-out;  
+    height: 8.5rem;
+    animation: fade 1s ease-in-out;
+    margin-top: 1.5rem;
   }
   .icon3.active{
     transform: rotate(180deg);
