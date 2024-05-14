@@ -425,7 +425,6 @@
           ------------                  ---------------
                                         
 -->
-       <div id="middle"></div> 
 <div>
     <svg
     class="waves"
@@ -474,10 +473,10 @@
         <p>Any more questions? Contact us!</p>
     </div>
     <div class="mainlist_email">
-        <form id="my" action="https://formsubmit.co/tnm.financialsolutions@gmail.com" method="POST" />
+        <form action="https://formsubmit.co/tnm.financialsolutions@gmail.com" method="POST" />
         <input class="email" placeholder=" Enter your email" type="email" name="email" required>
         <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_next" value="WAIT">
+        <input type="hidden" name="_next" value="https://step-to-the-future.github.io/testing/">
         <button type="submit" class="join">Join us</button>
         </form>
     </div>
@@ -650,10 +649,6 @@
                     
                 }
             }  
-document.getElementById("my").onsubmit = function() {
-    window.location.href = "https://step-to-the-future.github.io/testing/#middle";
-    return false; // Отменяет отправку формы
-};
 
            function buttonClicked() {
   var button = document.querySelector('.getstarted');
