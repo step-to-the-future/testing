@@ -2825,14 +2825,14 @@ header{
    }
 
      .div_email{
-    padding-top: 20px;
+    padding-top: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
   }
   .div_email p{
     color: white;
-    font-size: 21px;
+    font-size: 25px;
   }
   .mainlist_email{
     display: flex;
@@ -2896,7 +2896,7 @@ header{
    .foot_social{
      margin-left: 0;
      margin-right: 0;
-     padding-top: 110px; 
+     padding-top: 90px; 
      width: auto;
    }
    .centery{
