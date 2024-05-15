@@ -57,7 +57,7 @@
                 </div>
 
 <div class="but-div"> 
-    <button class="language-arrow" style="color: black;" onclick="togglelanguage5()">Language</button>
+    <button class="language_arrow" style="color: black;" onclick="togglelanguage5()">Language</button>
 </div>
             <div class="dwrap">
 <div  class="en_button"> <button data-lang="english" class="lang-button"><img src="usa.svg">EN</button></div>
@@ -507,6 +507,7 @@
 
         const langButtons = document.querySelectorAll('.lang-button');
         const AboutEl = document.querySelector('.About');
+        const word = document.querySelector('.language_arrow')
         const About2El = document.querySelector('.About2');
         const startEl = document.querySelector('.start_button');
         /*The code for changing "SPAN AND P" on the body part*/
@@ -531,11 +532,13 @@
         const answerEl = document.querySelector('.sub_answer');
         const wanderingEl = document.querySelector('.fuck_3');
         const answer2El = document.querySelector('.sub_answer2');
+        
 
         langButtons.forEach(button => {
                 button.addEventListener('click',() => {
                     const selectedLang = button.getAttribute('data-lang');
                     AboutEl.textContent = data[selectedLang].About;
+                    word.textContent = data[selectedLang].language_arrow;
                     About2El.textContent = data[selectedLang].About2;
                     startEl.textContent = data[selectedLang].start_button;
                      /*The code for changing "SPAN AND P" on the body part*/
@@ -569,6 +572,7 @@
                 {
                     "About": "about us",
                     "start_button": "Contact us",
+                    "language_arrow": "Language",
                     "About2" : "about us",
           /*The code for changing "SPAN AND P" on the body part*/
                     "the_first" : "T&M FINANCIALS",
@@ -598,6 +602,7 @@
                 {
                     "About": "о нас",
                     "start_button": "Связаться",
+                    "language_arrow": "Язык",
                     "About2" : "о нас",
            /*The code for changing "SPAN AND P" on the body part*/
                     "the_first" : "Т&М ФИНАНСЫ",
