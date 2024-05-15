@@ -1950,7 +1950,7 @@ header{
   }
   .dropdown-box{
     margin-top: 2.5rem;
-    margin-left: 1rem;
+    margin-left: 1.5rem;
  }
 
 
@@ -1981,9 +1981,10 @@ header{
 }
 .but-div.active{
   visibility: visible;
-    height: 5rem;
+    height: 3rem;
     margin-top: 70px;
     animation: fade 1s ease-in-out;
+    margin-bottom: 0;
 }
 
   .dropdown-menu .dwrap img{
@@ -1993,7 +1994,7 @@ header{
   .en_button{
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 10;
   }
   .lang-button{
     display: flex;
@@ -2002,7 +2003,7 @@ header{
   }
   .dropdown-menu .dwrap.active{
     visibility: visible;
-    height: 6rem;
+    height: 5.5rem;
     animation: fade 1s ease-in-out;
     margin-bottom: 25px;
   }
