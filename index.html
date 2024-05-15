@@ -67,17 +67,6 @@
                 <li class="sub_drop"><a href="#" class="About2">about us</a></li>
             </div>
             
-            <div class="dropdown-box2">
-                    <p class="services2">our services</p>
-                    <button class="ico2" href="#"></button> 
-            </div>
-            
-            <div class="dropdown-arrow">
-                <li><a href="#" class="arrow">Empty</a></li>
-                <li><a href="#" class="arrow2">Empty</a></li>
-                <li><a href="#" class="arrow3">Empty</a></li>
-            </div>
-        
 </div>
 
 
@@ -518,10 +507,6 @@
         const AboutEl = document.querySelector('.About');
         const About2El = document.querySelector('.About2');
         const startEl = document.querySelector('.start_button');
-        const services2El = document.querySelector('.services2');
-        const arrowEl = document.querySelector('.arrow');
-        const arrow2El = document.querySelector('.arrow2');
-        const arrow3El = document.querySelector('.arrow3');
         /*The code for changing "SPAN AND P" on the body part*/
         const finaEl = document.querySelector('.the_first');
         /*The code for changing "SPAN AND P" on the body part*/
@@ -550,11 +535,7 @@
                     const selectedLang = button.getAttribute('data-lang');
                     AboutEl.textContent = data[selectedLang].About;
                     About2El.textContent = data[selectedLang].About2;
-                    services2El.textContent = data[selectedLang].services2;
                     startEl.textContent = data[selectedLang].start_button;
-                    arrowEl.textContent = data[selectedLang].arrow;
-                    arrow2El.textContent = data[selectedLang].arrow2;
-                    arrow3El.textContent = data[selectedLang].arrow3;
                      /*The code for changing "SPAN AND P" on the body part*/
                     finaEl.textContent = data[selectedLang].the_first;
                     /*The code for changing "SPAN AND P" on the body part*/
@@ -587,10 +568,6 @@
                     "About": "about us",
                     "start_button": "Contact us",
                     "About2" : "about us",
-                    "services2" : "our services",
-                    "arrow" : "Empty",
-                    "arrow2" : "Empty",
-                    "arrow3" : "Empty",
           /*The code for changing "SPAN AND P" on the body part*/
                     "the_first" : "T&M FINANCIALS",
           /*The code for changing "SPAN AND P" on the body part*/
@@ -620,10 +597,6 @@
                     "About": "о нас",
                     "start_button": "Связаться",
                     "About2" : "о нас",
-                    "services2" : "наши услуги",
-                    "arrow" : "Пусто",
-                    "arrow2" : "Пусто",
-                    "arrow3" : "Пусто",
            /*The code for changing "SPAN AND P" on the body part*/
                     "the_first" : "Т&М ФИНАНСЫ",
           /*The code for changing "SPAN AND P" on the body part*/  
@@ -665,7 +638,6 @@
   const menuItems = document.querySelectorAll('.dropdown-menu .wrap');
   const hr_div = document.querySelectorAll('.dropdown-menu .hr_div');
   const dropdownbox = document.querySelectorAll('.sub_drop');
-  const dropdown_box2 = document.querySelectorAll('.dropdown-box2');
 
 dropdownMenu.classList.toggle('active');
   toggleIcon.classList.toggle('active');
@@ -677,9 +649,6 @@ dropdownMenu.classList.toggle('active');
     item.classList.toggle('active');
   });
     dropdownbox.forEach(item => {
-    item.classList.toggle('active');
-  });
-    dropdown_box2.forEach(item => {
     item.classList.toggle('active');
   });
 }
