@@ -2772,7 +2772,7 @@ header{
      .content_flex{
     background-color: rgb(71, 70, 70);
     width: 100%;
-    height: 395px;
+    height: 420px;
    }
    .waves{ 
     height: 40px;
@@ -2787,7 +2787,7 @@ header{
   }
   .div_email p{
     color: white;
-    font-size: 15px;
+    font-size: 21px;
   }
   .mainlist_email{
     display: flex;
@@ -2799,21 +2799,21 @@ header{
     padding-left: 15px;
     border-radius: 40px;
     background-color: white;
-    width: 150px;
-    height: 30px;
-    font-size: 5px;
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
     border: none;
     outline: none;
   }
   .join{
     margin-left: 10px;
     color: black;
-    height: 30px;
-    width: 50px;
+    height: 40px;
+    width: 65px;
     outline: none;
     border: none;
     border-radius: 40px;
-    font-size: 5px;
+    font-size: 15px;
     background-color: white;
     cursor: pointer;
   }
@@ -2851,7 +2851,7 @@ header{
    .foot_social{
      margin-left: 0;
      margin-right: 0;
-     padding-top: 80px; 
+     padding-top: 90px; 
      width: auto;
    }
    .centery{
