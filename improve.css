@@ -1950,7 +1950,7 @@ header{
   }
   .dropdown-box{
     margin-top: 2.5rem;
-    margin-left: 1.5rem;
+    margin-left: 2rem;
  }
 
 
@@ -1982,7 +1982,7 @@ header{
 .but-div.active{
   visibility: visible;
     height: 3rem;
-    margin-top: 70px;
+    margin-top: 80px;
     animation: fade 1s ease-in-out;
     margin-bottom: 0;
 }
@@ -2003,7 +2003,7 @@ header{
   }
   .dropdown-menu .dwrap.active{
     visibility: visible;
-    height: 5.5rem;
+    height: 6rem;
     animation: fade 1s ease-in-out;
     margin-bottom: 25px;
   }
