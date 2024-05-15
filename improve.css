@@ -1121,7 +1121,7 @@ header{
   padding: 8px 8px;
   cursor: pointer;
   margin-left: 1.8rem;
-  margin-top: 50px;
+  margin-top: 120px;
   font-size: 20px;
  }
 .dropdown-menu .dwrap{
@@ -1157,6 +1157,7 @@ header{
  .dropdown-box{
     margin-top: 4rem;
     margin-left: 25px;
+     display: none;
  }
  .dropdown-menu li{
       list-style: none;
@@ -1949,6 +1950,7 @@ header{
     height: 35px;
   }
   .dropdown-box{
+    display: none;
     margin-top: 2.5rem;
     margin-left: 2rem;
  }
@@ -1982,7 +1984,7 @@ header{
 .but-div.active{
   visibility: visible;
     height: 3rem;
-    margin-top: 80px;
+    margin-top: 120px;
     animation: fade 1s ease-in-out;
     margin-bottom: 0;
 }
