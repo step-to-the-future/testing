@@ -1950,7 +1950,7 @@ header{
   }
   .dropdown-box{
     margin-top: 2.5rem;
-    margin-left: 15px;
+    margin-left: 1rem;
  }
 
 
@@ -1960,7 +1960,7 @@ header{
     padding: 8px 8px;
     cursor: pointer;
     margin-left: 1.5rem;
-    margin-top: 50px;
+    margin-top: 70px;
     font-size: 18px;
    }
 
@@ -1972,6 +1972,19 @@ header{
     margin-left: 1.5rem;
     height: 0;
   }
+     .but-div{
+  height: 0;
+  transition: height .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  overflow-x: hidden;
+  visibility: hidden;
+  
+}
+.but-div.active{
+  visibility: visible;
+    height: 5rem;
+    animation: fade 1s ease-in-out;
+}
+
   .dropdown-menu .dwrap img{
     width: 40px;
     height: 40px;
