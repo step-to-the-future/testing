@@ -1856,7 +1856,7 @@ header{
   .content_flex{
     background-color: rgb(71, 70, 70);
     width: 100%;
-    height: 380px;
+    height: 450px;
    }
    .waves{
      position: relative;
@@ -1865,6 +1865,51 @@ header{
      margin-top: 300px;
      margin-bottom: -10px;
    }
+
+
+   .div_email{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .div_email p{
+    color: white;
+    font-size: 35px;
+  }
+  .mainlist_email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .email{
+    margin-top: 35px;
+    padding-left: 15px;
+    border-radius: 40px;
+    background-color: white;
+    width: 450px;
+    height: 60px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+  }
+  .join{
+    margin-left: 25px;
+    color: black;
+    height: 60px;
+    width: 100px;
+    outline: none;
+    border: none;
+    border-radius: 40px;
+    font-size: 20px;
+    background-color: white;
+    cursor: pointer;
+  }
+  .join:hover{
+    background-color: rgb(176, 218, 204);
+  }
+     
+     
    .foot_main{
      display: flex;
    }
@@ -1881,12 +1926,12 @@ header{
      width: 60%;
    }
    .foot_first{
-     padding-top: 235px;
+     padding-top: 140px;
      padding-left: 20px;
    }
    .foot_social{
      margin-left: 0;
-     padding-top: 250px;
+     padding-top: 155px;
      margin-right: 40px;
      width: 100%;
    }
