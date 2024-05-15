@@ -56,7 +56,9 @@
                 <p class="highlight-p">T&M FINANCIALS</p>
                 </div>
 
-<button class="language-arrow" style="color: black;" onclick="togglelanguage5()">Language</button>
+<div class="but-div"> 
+    <button class="language-arrow" style="color: black;" onclick="togglelanguage5()">Language</button>
+</div>
             <div class="dwrap">
 <div  class="en_button"> <button data-lang="english" class="lang-button"><img src="usa.svg">EN</button></div>
 <div  class="en_button"> <button data-lang="russian" class="lang-button"><img src="rus.svg">RU</button></div>
@@ -636,8 +638,8 @@
   const dropdownMenu = document.querySelector('.dropdown-menu');
   const toggleIcon = document.querySelector('.toggle_icon');
   const menuItems = document.querySelectorAll('.dropdown-menu .wrap');
-  const hr_div = document.querySelectorAll('.dropdown-menu .hr_div');
   const dropdownbox = document.querySelectorAll('.sub_drop');
+  const but_divEl = document.querySelectorAll('.but-div');
 
 dropdownMenu.classList.toggle('active');
   toggleIcon.classList.toggle('active');
@@ -645,11 +647,11 @@ dropdownMenu.classList.toggle('active');
     menuItems.forEach(item => {
     item.classList.toggle('active');
   });
-    hr_div.forEach(item => {
-    item.classList.toggle('active');
-  });
     dropdownbox.forEach(item => {
     item.classList.toggle('active');
+  });
+    but_divEl.forEach(item => {
+    item.classList.toggle('active')
   });
 }
 
