@@ -1158,13 +1158,6 @@ header{
     margin-top: 4rem;
     margin-left: 25px;
  }
- .dropdown-box2{
-    display: flex;
-    align-items: center;
-    margin-top: 10px;
-    width: 140px;
-    margin-left: 25px; 
- }
  .dropdown-menu li{
       list-style: none;
  }
@@ -1176,70 +1169,9 @@ header{
 .About2:hover{
     color: green;
 }
-.services2{
-    font-size: 23px;
-    color: white;
-    margin-top: 1px;
-}
-.services2:hover{
-    cursor: pointer;
-}
-.dropdown-box2 .ico2{
-    background-image: url(arrow.ico);
-    width: 18px;
-    height: 18px;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    cursor: pointer;
-}
-.ico2{
-    background: transparent;
-    border: none;
-}
 
 
 /*------------------------This "CSS CODE FOR DROPDOWN-ARROW INSIDE DROPDOWN-MENU"---------------------------*/
-
-
-.dropdown-arrow {
-    
-    position: absolute;
-    overflow: hidden;
-    height: 0;
-    visibility: hidden;
-    margin-top: -15px;
-    margin-left: 4rem;
-    background-color: grey;
-    border-radius: 20%;
-    border: 2px solid green;
-}
-.dropdown-arrow.open{
-    height: 200px;
-    width: 200px;
-    top: 375px;
-    padding-left: 60px;
-    transition: height .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    visibility: visible;
-   
-}
-.dropdown-arrow a{
-    font-size: 25px;
-    text-decoration: none;
-    color: white;
-}
-.dropdown-arrow a:hover{
-    color: rgb(75, 74, 74);
-}
-.dropdown-arrow li{
-    margin-top: 1.5rem
-}
-.dropdown-arrow .wrap{
-    display: none;
-}
-
-
-/*--------------------------------------------------------------*/
 
 
 /*The begining of the body part*/
@@ -2070,18 +2002,6 @@ header{
   transition: all 1s ease;
   animation: fade 1.5s ease-in-out;
 }     
- .dropdown-box2{
-    display: flex;
-    align-items: center;
-    margin-top: 10px;
-    width: 150px;
-    margin-left: 15px; 
- }
-.dropdown-box2.active{
-  height: 3rem;
-  animation: fade 1.5s ease-in-out;
-  transition: all 1s ease;
-}
 
 
      
@@ -2096,29 +2016,6 @@ header{
 .About2:hover{
     color: green;
 }
-.services2{
-    font-size: 19px;
-    color: white;
-    margin-top: 1px;
-}
-.services2:hover{
-    cursor: pointer;
-}
-.dropdown-box2 .ico2{
-    background-image: url(arrow.ico);
-    width: 18px;
-    height: 18px;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    cursor: pointer;
-}
-.ico2{
-    background: transparent;
-    border: none;
-}
-
-
 
      
 header{
