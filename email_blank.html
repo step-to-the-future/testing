@@ -8,6 +8,17 @@
         <link href="email_blank.css" rel="stylesheet" type="text/css">
     </head>
     <body>
+
+        
+        <div id="loading" class="hidden">
+            <div class="load">
+            <div class="spinner"></div>
+          </div>
+          <p class="sub_loading">Loading...</p>
+          <p class="sub_waiting">Please wait and don't exit, it may take a while</p>
+        </div>
+        
+        
         <div class="main_container">
         <div class="first">
             
@@ -24,12 +35,18 @@
         <input type="hidden" name="_captcha" value="false">
         <input type="hidden" name="_next" value="https://step-to-the-future.github.io/testing/email_thank.html">
         
-        <button class="submit" type="submit">Submit</button>
+        <button class="submit" type="submit" onclick="toggleawer()" >Submit</button>
         </div>
         </form>
             
         </div>
         </div>
 
+        <script>
+        function toggleawer() {
+            document.querySelector('.submit').classList.toggle('active');
+            document.querySelector('.hidden').classList.toggle('active');
+          }
+</script>
     </body>
 </html>
