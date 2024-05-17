@@ -7,6 +7,54 @@
 body{
   overflow-y: hidden;
 }
+
+.hidden {
+  display: none;
+  background-color: rgba(245, 240, 240, 0.5); /* Semi-transparent background */
+  backdrop-filter: blur(10px); /* Apply blur effect */
+  height: 100vh;
+  width: 100%;
+}
+.hidden.active{
+ 
+  display: block;
+  overflow-x: hidden;
+  transition: all 0.5s ease;
+  overflow: hidden;
+}
+
+/*DIV FOR THE SPINNING SPINNER*/ 
+.load{
+  margin-top: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.spinner {
+  border: 2px solid rgba(245, 241, 241, 0.1);
+  border-left-color: rgb(77, 163, 197);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+}
+/*DIV FOR THE INSCRIPTION BELOW THE SPINNER*/
+.sub_loading{
+  color: white;
+  margin-top: 2rem;
+  font-size: 2rem;
+  text-align: center;
+}
+.sub_waiting{
+  color: white;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
 .main_container{
   width: 100%;
   height: 100vh;
@@ -163,6 +211,15 @@ body{
 }
 
 @media (max-width: 400px){
+
+      .sub_waiting{
+    font-size: 18px;
+   }
+   .sub_loading{
+    font-size: 25px;
+   }
+}
+  
 .first{
         width: auto;
         padding-left: 15px;
