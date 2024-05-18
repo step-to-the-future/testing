@@ -197,20 +197,11 @@ body{
   margin-bottom: 20px;
   display: flex;
   align-items: center;
-}
-.sub_close{
-  text-decoration: none;
-  color: white;
-  margin-left: 24%;
-  background-color: rgb(219, 92, 92);
-  border: none;
-  padding: 10px 20px;
-  border-radius: 20px;
+  justify-content: center;
 }
 .sub_home{
   text-decoration: none;
   color: white;
-  margin-left: 24%;
   background-color: rgb(60, 156, 47);
   border: none;
   padding: 10px 20px;
@@ -295,26 +286,19 @@ body{
 }
 .sub_your{
   color: white;
-  font-size: 17px;
+  font-size: 15px;
   text-align: center;
 }
 .close{
 margin-top: 35px;
 margin-bottom: 20px;
-}
-.sub_close{
-text-decoration: none;
-color: white;
-margin-left: 10%;
-background-color: rgb(219, 92, 92);
-border: none;
-padding: 10px 20px;
-border-radius: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
 }
 .sub_home{
   text-decoration: none;
   color: white;
-  margin-left: 10%;
   background-color: rgb(60, 156, 47);
   border: none;
   padding: 10px 20px;
