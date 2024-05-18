@@ -16,7 +16,7 @@
         <div class="main_container">
         <div class="first">
             
-        <form action="https://formsubmit.co/tnm.financialsolutions@gmail.com" method="POST" />
+        <form id="myForm" action="https://formsubmit.co/tnm.financialsolutions@gmail.com" method="POST" />
             
         <div class="header">
                 <p>Get in touch</p>
@@ -47,6 +47,30 @@
         </div>
 
      <script>
+
+               // Add event listener to the form
+        document.getElementById('myForm').addEventListener('keydown', function(event) {
+            // Check if the pressed key is Enter and the target is a text input field
+            if (event.key === 'Enter' && event.target.tagName === 'INPUT' && event.target.type === 'text') {
+                event.preventDefault(); // Prevent the form submission
+                const form = event.target.form;
+                const index = Array.prototype.indexOf.call(form, event.target);
+                form.elements[index + 1].focus();
+            }
+        });
+
+        // Prevent form submission on Enter in email field
+        document.querySelector('input[type="email"]').addEventListener('keydown', function(event) {
+            if (event.key === 'Enter') {
+                event.preventDefault();
+                const form = event.target.form;
+                const index = Array.prototype.indexOf.call(form, event.target);
+                form.elements[index + 1].focus();
+            }
+        });
+
+
+         
         function toggleawer() {
             document.querySelector('.submit').classList.toggle('active');
             document.querySelector('.hidden').classList.toggle('active');
