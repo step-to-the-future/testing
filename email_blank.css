@@ -55,6 +55,7 @@ body{
 .sub_waiting{
   color: white;
   font-size: 1.5rem;
+  font-weight: bold;
   margin-top: 1rem;
   text-align: center;
 }
@@ -231,7 +232,8 @@ body{
     }
 
 .sub_waiting{
-    font-size: 18px;
+    font-size: 14px;
+    font-weight: bold;
    }
    .sub_loading{
     font-size: 25px;
@@ -286,7 +288,7 @@ body{
 }
 .sub_your{
   color: white;
-  font-size: 15px;
+  font-size: 14px;
   text-align: center;
 }
 .close{
