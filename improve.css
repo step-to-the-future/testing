@@ -2291,7 +2291,7 @@ header{
     width: auto;
 }
 .sub_monitor{
-    text-align: left;
+    line-height: 2rem;
     font-size: 16px;
     width: 98%;
     margin-top: 8px;
@@ -2324,7 +2324,7 @@ header{
     width: auto;
  }
  .sub_reduced{
-    text-align: left;
+    line-height: 2rem;
     font-size: 16px;
     width: auto;
     margin-top: 8px;
@@ -2363,7 +2363,7 @@ header{
     
  }
  .sub_unique{
-    text-align: left; 
+    line-height: 2rem; 
     font-size: 16px;
     width: auto;
     margin-top: 8px;
