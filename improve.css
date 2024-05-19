@@ -2280,25 +2280,28 @@ header{
 .div_monitor{
     width: auto;
     text-align: center;
+    padding-left: 5px;
 }
 .div_monitor:first-child{
     order: 2;
 }
 .monitor{
-    font-size: 24px;
+    font-size: 22px;
     font-weight: bold;
     width: auto;
 }
 .sub_monitor{
-    font-size: 19px;
-    width: auto;
+    text-align: left;
+    font-size: 16px;
+    width: 98%;
     margin-top: 8px;
     font-weight: bold;
     color: rgb(128, 126, 126);
+    word-spacing: 5px;
 }
 .text_pic img{
     margin-left: 1rem;
-    width: 80%;
+    width: 60%;
 }
 
 .text_reduced{
@@ -2306,29 +2309,31 @@ header{
     align-items: center;
     width: auto;
     padding-left: 0;
-    padding-right: 0;
+    padding-right: 5px;
     margin-top: 5rem;
  }     
  .div_reduced{
     width: auto;
-    padding-left: 0;
+    padding-left: 5px;
     text-align: center;
     margin-top: -10px;
  } 
  .reduced{
-    font-size: 24px;
+    font-size: 22px;
     font-weight: bold;
     width: auto;
  }
  .sub_reduced{
-    font-size: 19px;
+    text-align: left;
+    font-size: 16px;
     width: auto;
     margin-top: 8px;
     font-weight: bold;
     color: rgb(128, 126, 126);
+    word-spacing: 5px; 
  }
  .text_reduced img{
-    width: 75%;
+    width: 60%;
     margin-left: 0;
  }  
 
@@ -2346,22 +2351,25 @@ header{
     width: auto;
     padding-top: 1rem;
     text-align: center;
-    padding-left: 0;
+    padding-left: 5px;
+    padding-right: 5px; 
  }
  .div_unique:first-child{
     order: 2;
  }
  .unique{
-    font-size: 24px;
+    font-size: 22px;
     font-weight: bold;
     
  }
  .sub_unique{
-    font-size: 19px;
+    text-align: left; 
+    font-size: 16px;
     width: auto;
     margin-top: 8px;
     font-weight: bold;
     color: rgb(128, 126, 126);
+    word-spacing: 5px;
  }
  .unique_pic img{
     margin-left: 35px;
