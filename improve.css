@@ -2271,8 +2271,8 @@ header{
     margin-top: 4rem;
     display: flex;
     align-items: center;
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-left: 0;
     height: auto;
     flex-direction: column;
@@ -2280,7 +2280,7 @@ header{
 .div_monitor{
     width: auto;
     text-align: center;
-    padding-left: 5px;
+    padding-left: 0;
 }
 .div_monitor:first-child{
     order: 2;
@@ -2308,13 +2308,13 @@ header{
     display: block;
     align-items: center;
     width: auto;
-    padding-left: 0;
-    padding-right: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-top: 5rem;
  }     
  .div_reduced{
     width: auto;
-    padding-left: 5px;
+    padding-left: 0;
     text-align: center;
     margin-top: -10px;
  } 
@@ -2351,8 +2351,8 @@ header{
     width: auto;
     padding-top: 1rem;
     text-align: center;
-    padding-left: 5px;
-    padding-right: 5px; 
+    padding-left: 15px;
+    padding-right: 15px; 
  }
  .div_unique:first-child{
     order: 2;
