@@ -289,7 +289,7 @@ header{
     margin-top: 6.5rem;
     display: flex;
     align-items: center;
-    margin-left: 100px;
+    margin-left: 40px;
     width: auto;
 }
 .div_monitor{
@@ -298,21 +298,19 @@ header{
 .monitor{
     font-size: 45px;
     font-weight: bold;
-    width: 85%;
-    margin-top: 85px;
+    width: 90%;
+    margin-top: 30px;
 }
 .sub_monitor{
     font-size: 30px;
-    width: 75%;
+    width: 90%;
     margin-top: 25px;
     font-weight: bold;
-    color: rgb(63, 60, 60);
+    color: rgb(128, 126, 126);
 }
 .text_pic img{
-    margin-right: 50px;
-    width: 45%;
-
-    
+    margin-right: 0;
+    width: 45%;    
 }
                                                         /*STYLE FOR "TEXT_PIC DIV"*/
 
@@ -340,11 +338,11 @@ header{
     width: 90%;
     margin-top: 25px;
     font-weight: bold;
-    color: rgb(63, 60, 60);
+    color: rgb(128, 126, 126);
  }
  .text_reduced img{
-    width: 35%;
-    margin-left: 40px;
+    width: 500px;
+    margin-left: 10px;
  }                                          
 
  /*STYLES FOR "DIV-UNIQUE_PIC"--------------------*/
@@ -369,7 +367,7 @@ header{
     width: 75%;
     margin-top: 25px;
     font-weight: bold;
-    color: rgb(63, 60, 60);
+    color: rgb(128, 126, 126);
  }
  .unique_pic img{
     height: 24rem;
@@ -1324,64 +1322,76 @@ header{
 
 
 .text_pic{
-    margin-top: 3rem;
-    display: flex;
-    align-items: center;
-    padding-left: 30px;
-    margin-left: 0;
-    height: auto;
-    width: auto;
-    
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  height: auto;
+  flex-direction: column;
 }
 .div_monitor{
-    width: auto;
-    
+  width: auto;   
+  text-align: center;
+}
+.div_monitor:first-child{
+  order: 2;
 }
 .monitor{
-    font-size: 25px;
-    width: auto;
-    font-weight: bold;
+  font-size: 35px;
+  font-weight: bold;
+  width: auto;
+  margin-top: 0;
 }
 .sub_monitor{
-    font-size: 20px;
-    width: 75%;
-    margin-top: 15px;
-    font-weight: bold;
-    color: rgb(63, 60, 60);
+  font-size: 24px;
+  width: auto;
+  margin-top: 5px;
+  font-weight: bold;
+  color: rgb(128, 126, 126);
 }
 .text_pic img{
-    margin-right: 0;
-    padding-right: 10px;
-    width: 45%;
-   
+  margin-left: 2rem;
+  width: 400px;
 }
 
+
 .text_reduced{
-    display: flex;
-    align-items: center;
-    width: auto;
-    margin-top: 3rem;
- }     
- .div_reduced{
-    width: auto;
-    padding-left: 35px;
- } 
- .reduced{
-    font-size: 25px;
-    font-weight: bold;
- }
- .sub_reduced{
-    font-size: 20px;
-    width: 90%;
-    margin-top: 25px;
-    font-weight: bold;
-    color: rgb(63, 60, 60);
- }
- .text_reduced img{
-    width: 40%;
-    margin-left: 10px;
- }  
- 
+  display: block;
+  width: auto;
+  margin-top: 4rem;
+  padding-left: 0;
+  padding-right: 0;
+}     
+.div_reduced{
+  width: auto;
+  text-align: center;
+  margin-top: 0;
+  padding-left: 0;
+} 
+.reduced{
+  font-size: 35px;
+  font-weight: bold;
+  width: auto;
+}
+.sub_reduced{
+  font-size: 24px;
+  width: auto;
+  margin-top: 5px;
+  font-weight: bold;
+  color: rgb(128, 126, 126);
+}
+.Other{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text_reduced img{
+  margin-left: 0;
+  width: 400px;
+}  
+
  
  .unique_pic{
     display: flex;
