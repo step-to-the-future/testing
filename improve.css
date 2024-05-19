@@ -351,11 +351,11 @@ header{
     margin-top: 4rem;
     display: flex;
     align-items: center;
-    margin-left: 100px;
+    margin-left: 40px;
     width: auto;
  }
  .div_unique{
-    width: 55%;
+    width: auto;
     padding-top: 1rem;
  }
  .unique{
@@ -364,15 +364,14 @@ header{
  }
  .sub_unique{
     font-size: 30px;
-    width: 75%;
+    width: 90%;
     margin-top: 25px;
     font-weight: bold;
     color: rgb(128, 126, 126);
  }
  .unique_pic img{
-    height: 24rem;
-    width: 35%;
-    margin-left: 6rem;
+    height: 30rem;
+    width: 50%;
  }
 
 /*___________________________------------------------________*/
@@ -1392,36 +1391,44 @@ header{
   width: 400px;
 }  
 
- 
+
  .unique_pic{
-    display: flex;
-    align-items: center;
-    margin-left: 0;
-    width: auto;
-    margin-top: 1rem;
- }
- .div_unique{
-    width: 55%;
-    padding-top: 1rem;
-    padding-left: 30px;
- }
- .unique{
-    font-size: 25px;
-    font-weight: bold;
-    
- }
- .sub_unique{
-    font-size: 20px;
-    width: 85%;
-    margin-top: 25px;
-    font-weight: bold;
-    color: rgb(63, 60, 60);
- }
- .unique_pic img{
-    margin-left: 0.5rem;
-    width: 38%;
-    height: 17rem;
- } 
+  display: flex;
+  align-items: center;
+  margin-left: 0;
+  width: auto;
+  padding-right: 0;
+  margin-top: 7.5rem;
+  flex-direction: column;
+}
+.div_unique{
+  width: auto;
+  padding-top: 1rem;
+  text-align: center;
+  padding-left: 0;
+}
+.div_unique:first-child{
+  order: 2;
+}
+.unique{
+  font-size: 35px;
+  font-weight: bold;
+  
+}
+.sub_unique{
+  font-size: 24px;
+  width: auto;
+  margin-top: 5px;
+  font-weight: bold;
+  color: rgb(63, 60, 60);
+}
+.unique_pic img{
+  margin-left: 40px;
+  width: 400px;
+  height: 22rem;
+}
+
+     
  /*              "MAIN TARIFF DIV" PLACE FOR THE WHOLE TARIFF  */
 
 /*PLACE FOR DIV-TARIFFS STYLES*/
@@ -2283,7 +2290,7 @@ header{
     width: auto;
 }
 .sub_monitor{
-    font-size: 20px;
+    font-size: 19px;
     width: auto;
     margin-top: 8px;
     font-weight: bold;
@@ -2314,7 +2321,7 @@ header{
     width: auto;
  }
  .sub_reduced{
-    font-size: 20px;
+    font-size: 19px;
     width: auto;
     margin-top: 8px;
     font-weight: bold;
@@ -2322,7 +2329,7 @@ header{
  }
  .text_reduced img{
     width: 75%;
-    margin-left: 2rem;
+    margin-left: 0;
  }  
 
  .unique_pic{
@@ -2350,14 +2357,14 @@ header{
     
  }
  .sub_unique{
-    font-size: 20px;
+    font-size: 19px;
     width: auto;
     margin-top: 8px;
     font-weight: bold;
     color: rgb(128, 126, 126);
  }
  .unique_pic img{
-    margin-left: 40px;
+    margin-left: 35px;
     width: 60%;
     height: 14rem;
  }
