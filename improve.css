@@ -298,6 +298,7 @@ header{
 .monitor{
     font-size: 45px;
     font-weight: bold;
+    width: 85%;
     margin-top: 85px;
 }
 .sub_monitor{
@@ -1338,6 +1339,7 @@ header{
 }
 .monitor{
     font-size: 25px;
+    width: auto;
     font-weight: bold;
 }
 .sub_monitor{
