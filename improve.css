@@ -2301,7 +2301,7 @@ header{
 }
 .text_pic img{
     margin-left: 1rem;
-    width: 60%;
+    width: 70%;
 }
 
 .text_reduced{
@@ -2333,7 +2333,7 @@ header{
     word-spacing: 5px; 
  }
  .text_reduced img{
-    width: 60%;
+    width: 70%;
     margin-left: 0;
  }  
 
@@ -2351,8 +2351,8 @@ header{
     width: auto;
     padding-top: 1rem;
     text-align: center;
-    padding-left: 15px;
-    padding-right: 15px; 
+    padding-left: 10px;
+    padding-right: 10px; 
  }
  .div_unique:first-child{
     order: 2;
@@ -2373,7 +2373,7 @@ header{
  }
  .unique_pic img{
     margin-left: 35px;
-    width: 60%;
+    width: 65%;
     height: 14rem;
  }
 /*--------------------------------------------------*/
